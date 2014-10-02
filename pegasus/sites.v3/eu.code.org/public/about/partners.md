@@ -1,6 +1,6 @@
 ---
 title: Partners of the EU Hour of Code
-nav: adults_nav
+nav: about_nav
 social:
   'og:title' : 'The EU Hour of Code is coming'
   'og:description' : "For every student: learn how fun coding is in just one hour, October 11-17."
