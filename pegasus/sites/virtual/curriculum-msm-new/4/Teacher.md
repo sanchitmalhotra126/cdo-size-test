@@ -1,18 +1,18 @@
 ---
-title: Videogames and Coordinate Planes
+title: Contracts
 view: page_curriculum
 theme: none
 ---
 
 
-<%= partial('curriculum_header', :unplugged=>true, :title=> 'Video Games and Coordinate Planes',:disclaimer=>'Basic lesson time includes activity only. Introductory and Wrap-Up suggestions can be used to delve deeper when time allows.', :time=>25) %>
+<%= partial('curriculum_header', :unplugged=>true, :title=> 'Contracts',:disclaimer=>'Basic lesson time includes activity only. Introductory and Wrap-Up suggestions can be used to delve deeper when time allows.', :time=>25) %>
 
 [content]
 
 [together]
 
 ## Lesson Overview
-Students discuss the components of their favorite videogames, and discover that they can be reduced to a series of coordinates. They then explore coordinates in Cartesian space, and identify the coordinates for the characters in a game at various points in time. Once they are comfortable with coordinates, they brainstorm their own games and create sample coordinate lists for different points in time in their own game.
+Contracts provide a way for students to better understand and discuss functions. Through this lesson students will look at known functions and come up with the contracts that describe those functions.
 
 [summary]
 
@@ -37,8 +37,8 @@ Students discuss the components of their favorite videogames, and discover that 
 
 ## Lesson Objectives 
 ### Students will:
-- Create a data model that describes a simple videogame
-- Describe the movements of videogame characters by their change in coordinates
+- Describe a function in terms of its name, domain, and range
+- Create contracts for arithmetic and image-producing functions
 
 [/together]
 
@@ -48,11 +48,7 @@ Students discuss the components of their favorite videogames, and discover that 
 
 ## Materials, Resources and Prep
 ### For the Student
-- Videogame description chart
-
-### For the Teacher
-- Example Game
-- Character Cutouts
+- Contract Sheet
 
 [/together]
 
@@ -62,20 +58,21 @@ Students discuss the components of their favorite videogames, and discover that 
 
 
 ### <a name="Vocab"></a> 1) Vocabulary
-This lesson has two new and important words:<br/>
+This lesson has three new and important words:<br/>
 
-- **Apply** - use a given function on some inputs
-- **Arguments** - the inputs to a function; expressions for arguments follow the name of a function
+- **Contract** - a statement of the name, domain, and range of a function
+- **Domain** - the type of data that a function expects
+- **Range** - the type of data that a function produces
 
 ### <a name="GetStarted"></a> 2) Figuring it Out
-Welcome to CS in Middle School Math! In this course, you’ll be learning a new programming language - a way to tell computers exactly what you want them to do. Just like English, Spanish or French, a programming language has its own vocabulary and grammar that you’ll have to learn. Fortunately, the language you’ll be using here has a lot in common with simple math that you already know!
 
-Connect the material that’s to come with things students already know:
+You’ve already seen several functions that take in two Numbers, such as +, and -. On the other hand, the function "star" takes in a Number and two Strings. Different functions take in different inputs, and we need a way to keep track of the requirements for each function. The Domain of a function is the data that the function expects. 
 
-- Talk to them about what makes a language - especially if you have students who speak a second or third language
-- Programming is very much a language, with its own syntax, semantics, etc
-- Ask students about their favorite videogames. Be open about the scale of a modern game: they cost millions of dollars, are built by huge teams of programmers and artists, and are developed over years.
-- Set expectations about what can be accomplished in a single, introductory programming class.
+**The Domain of a function is the data that the function expects.**
+
+By keeping a list of all the functions in a language, and their Domains, programmers can easily look up how each function is used. However, it’s also important to keep track of what each function produces! For example, a program wouldn’t use "star" if they were trying to produce a Number, because star only produces Images. 
+
+**The Range of a function is the data that the function produces.**
 
 
 [/together]
