@@ -1,6 +1,6 @@
 ---
 title: Professional Development Philosophy
-nav: educate2_nav
+nav: educate_nav
 ---
 
 
@@ -8,7 +8,7 @@ nav: educate2_nav
 
 Code.org has worked with partners and experts in the field to develop a blended PD model that embraces the importance of in-person, cooperative workshops and uses online and asynchronous components to provide an ongoing community and support when teachers are in the classroom. This PD experience builds on the work of others and recognizes that one size does not fit all, therefore the PD is tailored for each course and curriculum developed or selected by Code.org. These PD opportunities are based on the following principles.
 
-These PD programs are supported by high-quality curricula, which are detailed [here](https://code.org/educate/curriculum-philosophy).
+These PD programs are supported by high-quality curricula, which are detailed [here](/educate/curriculum-philosophy).
 
 ## K-12 Professional Development Philosophy
 

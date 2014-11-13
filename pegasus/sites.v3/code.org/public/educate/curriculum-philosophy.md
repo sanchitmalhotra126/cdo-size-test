@@ -1,6 +1,6 @@
 ---
 title: Curriculum Philosophy
-nav: educate2_nav
+nav: educate_nav
 ---
 
 
@@ -10,7 +10,7 @@ Code.org believes all students should have access to high quality computer sc
 
 As an organization working to bring high quality CS curricula into the mainstream of education, there is always work to be done to bring practices in line with philosophies. To that end, we strive to build and support materials that align with the philosophical ideals listed below.
 
-These curricula are supported by extensive professional development programs, detailed [here](http://code.org/educate2/professional-development-philosophy).
+These curricula are supported by extensive professional development programs, detailed [here](/educate/professional-development-philosophy).
 
 ## K-12 Curriculum Philosophy
 
