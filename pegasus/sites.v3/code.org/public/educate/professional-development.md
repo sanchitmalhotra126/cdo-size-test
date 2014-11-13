@@ -1,6 +1,6 @@
 ---
 title: Professional Development
-nav: educate2_nav
+nav: educate_nav
 ---
 # Professional Development #
 <img src="/images/k5pdcropped.png" width="100%"/>
@@ -72,4 +72,4 @@ Quarterly in person and/or online professional development workshops combined wi
 
 
 ---
-For the intellectually curious, we've also published our [professional development philosophy](/educate2/professional-development-philosophy), which we use to guide our own team's effort as well as our work with our education partners.
+For the intellectually curious, we've also published our [professional development philosophy](/educate/professional-development-philosophy), which we use to guide our own team's effort as well as our work with our education partners.
