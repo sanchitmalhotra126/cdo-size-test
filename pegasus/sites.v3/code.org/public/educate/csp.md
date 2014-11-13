@@ -1,6 +1,6 @@
 ---
 title: Computer Science Principles
-nav: educate2_nav
+nav: educate_nav
 ---
 
 # Computer Science Principles #
