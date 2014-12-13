@@ -4,7 +4,7 @@
 
 
 
-# Thanks for signing up to host an Hour of Code!
+# Faleminderit qe u rregjistruat si mikprtes i kursit, Ore ne kodim!
 
 **EVERY** Hour of Code organizer will receive 10 GB of Dropbox space or $10 of Skype credit as a thank you. [Details](<%= hoc_uri('/prizes') %>)
 

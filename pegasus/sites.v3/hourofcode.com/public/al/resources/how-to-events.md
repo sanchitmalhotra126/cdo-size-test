@@ -65,7 +65,7 @@ Host an Hour of Code event during Computer Science Education Week (Dec 8-14) to 
   </tr>
   
   <td>
-    10:05-11:15 am
+    10:05-10:15 am
   </td>
   
   <td>
@@ -73,7 +73,7 @@ Host an Hour of Code event during Computer Science Education Week (Dec 8-14) to 
   </td></tr> 
   
   <td>
-    11:15-11:17 am
+    10:15-10:17 am
   </td>
   
   <td>
@@ -81,7 +81,7 @@ Host an Hour of Code event during Computer Science Education Week (Dec 8-14) to 
   </td></tr> 
   
   <td>
-    11:17-11:30 am
+    10:17-10:30 am
   </td>
   
   <td>
@@ -89,7 +89,7 @@ Host an Hour of Code event during Computer Science Education Week (Dec 8-14) to 
   </td></tr> 
   
   <td>
-    11:30-11:40 am
+    10:30-10:40 am
   </td>
   
   <td>
@@ -97,7 +97,7 @@ Host an Hour of Code event during Computer Science Education Week (Dec 8-14) to 
   </td></tr> 
   
   <td>
-    11:40-12:00 pm
+    10:40-11:00 pm
   </td>
   
   <td>
@@ -105,7 +105,7 @@ Host an Hour of Code event during Computer Science Education Week (Dec 8-14) to 
   </td></tr> 
   
   <td>
-    12:00-12:05 pm
+    11:00-11:05 pm
   </td>
   
   <td>
