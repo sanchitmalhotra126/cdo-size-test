@@ -1,3 +1,9 @@
+---
+title: Hour of Code Organizer Survey
+nav: blank
+rightbar: blank
+---
+
 -code = File.basename(request.path_info)
 
 %script{type: "text/javascript", src: "/js/sifter.min.js"}
@@ -7,7 +13,14 @@
 %script{type: "text/javascript", src: "/js/hoc-survey-2014.js"}
 %link{rel: "stylesheet", type: "text/css", href: "/css/selectize.bootstrap3.css"}/
 
+/[if lt IE 9]
+  %script{src: "/js/es5-shim.min.js"}
+
+%h1 Hour of Code Organizer Survey
+
 %form{:id=>"hoc-survey-form", role: "form", onsubmit: "event.preventDefault();"}
+  %p Intro text goes here.
+
   #error_message
 
   .form-group
@@ -48,7 +61,7 @@
       %input#students-number-girls.form-control{name: "students_number_girls_i", placeholder: "", type: "text", required: true}/
 
   .form-group
-    #students-number-ethnicity-wrapper{style: "display: hidden;"}
+    #students-number-ethnicity-wrapper{style: "display: none;"}
       %label.control-label{for: "students-number-ethnicity"} In total, how many of the students were Hispanic, African American, or Native American (approximately)?
       %span.form-required-field *
       %div
