@@ -147,7 +147,7 @@ social:
   #audienceslots{style: "text-align:center; margin-top:20px"}
     - audienceslots = []
 
-    - slot = {name:"Students", bgc: "0, 173, 188", bgc_body: "242, 251, 252", bgc_head: "77, 198, 208", links: []}
+    - slot = {name:"Students", bgc: "0, 173, 188", bgc_body1: "242, 251, 252", bgc_head: "77, 198, 208", bgc_body: "77, 198, 208",links: []}
     -   slot[:links] << {img: "/shared/images/courses/logo_tall_elementary.jpg"}
     -   slot[:links] << {text: "Try the Hour of Code"}
     -   slot[:links] << {text: "Code Studio"}
@@ -155,7 +155,7 @@ social:
     -#   slot[:links] << {text: "Other learning options ", priority: 2} #p2
     - audienceslots << slot
 
-    - slot = {name:"Educators", bgc: "118, 101, 160", bgc_body: "248, 247, 250", bgc_head: "159, 147, 189", links: []}
+    - slot = {name:"Educators", bgc: "118, 101, 160", bgc_body1: "248, 247, 250", bgc_head: "159, 147, 189", bgc_body: "159, 147, 189", links: []}
     -   slot[:links] << {img: "/shared/images/courses/logo_tall_teacher.jpg"}
     -   slot[:links] << {text: "Learn about our K-5 program"}
     -   slot[:links] << {text: "Find a K-5 educator workshop"}
@@ -163,7 +163,7 @@ social:
     -#   slot[:links] << {text: "Host an Hour of Code", priority: 2} # p2
     - audienceslots << slot
 
-    - slot = {name:"Advocates", bgc: "185, 191, 21", bgc_body: "252, 252, 243", bgc_head: "206, 210, 91", links: []}
+    - slot = {name:"Advocates", bgc: "185, 191, 21", bgc_body1: "252, 252, 243", bgc_head: "206, 210, 91",  bgc_body: "206, 210, 91",links: []}
     -   slot[:links] << {img: "/shared/images/courses/logo_tall_shop_borderless.jpg"}
     -   slot[:links] << {text: "Support CS in your state"}
     -   slot[:links] << {text: "Donate to Code.org"}
@@ -171,7 +171,7 @@ social:
     -#   slot[:links] << {text: "Advocacy tools  ", priority: 2} # p2
     - audienceslots << slot
 
-    - slot = {name:"Highlights", bgc: "255, 184, 29", bgc_body: "230, 230, 230", bgc_head: "90, 90, 90", links: []}
+    - slot = {name:"Highlights", bgc: "255, 184, 29", bgc_body1: "230, 230, 230", bgc_head: "90, 90, 90",  bgc_body: "90, 90, 90",links: []}
     -   slot[:links] << {img: "/shared/images/courses/logo_tall_frozen.jpg"}
     -   slot[:links] << {text: "Try the Hour of Code"}
     -   slot[:links] << {text: "Latest News"}
@@ -181,7 +181,7 @@ social:
     - audienceslots.each_with_index do |row, rowindex|
       -# display = entry[:active_s] == "hide" ? "none" : "block"
       .slot{style: "display: #{display}"}
-        = view :homepage_linkslot_tall_quarter, entry: row, bgc_head: row[:bgc_head], bgc_body: row[:bgc_body]
+        = view :homepage_linkslot_tall_quarter_white, entry: row, bgc_head: row[:bgc_head], bgc_body: row[:bgc_body], bgc_body1: row[:bgc_body1]
 
   .clear{style: "clear:both"}
 
