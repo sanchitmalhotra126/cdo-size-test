@@ -4,7 +4,7 @@ title: App Lab Docs
 
 [name]
 
-## rect(x, y, width, height)
+## rect()
 
 [/name]
 
@@ -17,11 +17,7 @@ Category: Canvas
 
 [description]
 
-[short_description]
-
 Draws a rectangle with a given size and position onto a canvas element.
-
-[/short_description]
 
 **Note**: A canvas element must exist before the rectangle can be drawn. Create a canvas element in Design mode first, or call [createCanvas()](/applab/docs/createCanvas) before calling rect().
 
@@ -57,9 +53,7 @@ ____________________________________________________
 [syntax]
 
 ### Syntax
-<pre>
-rect(x, y, width, height);
-</pre>
+    rect(x, y, width, height);
 
 [/syntax]
 
@@ -73,7 +67,6 @@ rect(x, y, width, height);
 | y | number | Yes | The y position in pixels of the upper left corner of the rectangle.  |
 | width | number | Yes | The horizontal width in pixels of the rectangle.  |
 | height | number | Yes | The vertical height in pixels of the rectangle.  |
-
 [/parameters]
 
 [returns]
@@ -93,6 +86,6 @@ No return value. Outputs to the display only.
 
 [bug]
 
-Found a bug in the documentation? Let us know at documentation@code.org
+Find a bug or issue in the documentation? Let us know at documentation@code.org
 
 [/bug]
