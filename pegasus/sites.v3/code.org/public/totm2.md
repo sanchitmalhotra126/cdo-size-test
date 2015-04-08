@@ -6,7 +6,7 @@ nav: educate_nav
 
 # Teacher of the Month winners
 
-<%= view :totm3_winners %>
+<%= view :totm2_winners %>
 
 # Nominate a Teacher of the Month
 
@@ -34,4 +34,4 @@ Thanks for your nomination!
 
 <br />
 <br />
-[See Student of the Month winners](/sotm)
+[See Student of the Week winners](/sotw)
