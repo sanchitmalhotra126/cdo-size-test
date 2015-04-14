@@ -19,7 +19,7 @@ Category: Turtle
 
 [short_description]
 
-Returns (gets) the current direction that the turtle is facing.
+Returns (gets) the current direction that the turtle is facing. 0 degrees is pointing up
 
 [/short_description]
 
