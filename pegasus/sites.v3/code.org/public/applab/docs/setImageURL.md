@@ -4,7 +4,7 @@ title: App Lab Docs
 
 [name]
 
-## getImageURL(imageId)
+## setImageURL(id, url)
 
 [/name]
 
@@ -18,7 +18,7 @@ Category: UI Controls
 
 [short_description]
 
-Get the URL for the provided image element id.
+Sets the URL for the provided image element id.
 
 [/short_description]
 
@@ -31,18 +31,14 @@ ____________________________________________________
 
 **Example 1**
 
-Add the Code.org logo to the screen
+Use setImageURL to change the source of an existing image element
 
 <pre>
 // add the Code.org logo to the screen from the url
-image("logo", "http://code.org/images/logo.png");
+image("image", "http://code.org/images/logo.png");
 
-// get the url for the image element with the provided url
-// store the url in the variable imageURL
-var imageURL = getImageURL("logo");
-
-// output the contents of the variable ("http://code.org/images/logo.png") to the console
-console.log(imageURL);
+// change the image element from the Code.org logo to the dog character
+setImageURL("image", "http://studio.code.org/blockly/media/skins/applab/static_avatar.png");
 </pre>
 
 [/example]
@@ -54,7 +50,7 @@ ____________________________________________________
 **Example 2**
 
 Click the button to change the character image on the screen from the dog to the bee and back again.
-Use getImageURL to determine which character is currently displayed.
+Use seImageURL to change the character by simply changing the image element's url.
 
 <pre>
 // use variables to store the ids for the image and button elements
@@ -68,15 +64,15 @@ var beeImageURL = "http://studio.code.org/blockly/media/skins/bee/static_avatar.
 // create an image element with the dog character
 image(imageId, dogImageURL);
 
-// create a button element
+// create a button element 
 button(buttonId, "Change Character");
 
 // add a click event to the button to change the character
 onEvent(buttonId, "click", function(event) {
-
+  
   // get the current character image URL
   var currentCharacterURL = getImageURL(imageId);
-
+  
   // determine which character is currently displayed on the screen
   // check if the current character URL is the same URL as the dog character's
   if (currentCharacterURL == dogImageURL) {
@@ -100,7 +96,7 @@ ____________________________________________________
 
 ### Syntax
 <pre>
-getImageURL(imageId);
+setImageURL(id, url);
 </pre>
 
 [/syntax]
@@ -111,37 +107,22 @@ getImageURL(imageId);
 
 | Name  | Type | Required? | Description |
 |-----------------|------|-----------|-------------|
-| imageId | string | Yes | The id of the image element. |
+| id | string | Yes | The id of the image element.  |
+| url | string | Yes | TThe source URL of the image to be displayed on screen.  |
 
 [/parameters]
 
 [returns]
 
 ### Returns
-Returns the first url matching the provided id.
+Returns true if the URL assignment was successful
+Returns false if the URL assignment was not successful
 
 [/returns]
 
 [tips]
 
 ### Tips
-- getImageURL("id") returns the first URL that matches the provided id.
-<pre>
-var dogImageURL = "http://studio.code.org/blockly/media/skins/applab/static_avatar.png";
-var beeImageURL = "http://studio.code.org/blockly/media/skins/bee/static_avatar.png";
-
-// create two image elements with the same id but different urls
-// the first image will display the dog character
-// the second image will display the bee character
-image("image", dogImageURL);
-image("image", beeImageURL);
-
-// get the url from the image element with the id "image"
-var url = getImageURL("image");
-
-// output the contents of the variable ("http://studio.code.org/blockly/media/skins/applab/static_avatar.png") to the console
-console.log(url);
-</pre>
 
 [/tips]
 
