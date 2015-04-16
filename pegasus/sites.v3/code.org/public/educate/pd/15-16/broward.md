@@ -4,7 +4,7 @@ nav: pd2_nav
 ---
 <a id="top"></a>
 
-# Region Professional Development
+# Broward Professional Development
 
 - [I'm attending Computer Science Principles PD](#csp)
 - [I'm attending Exploring Computer Science PD](#ecs)
@@ -51,7 +51,6 @@ Snacks
 <br />
 Laptop optional, not required
 
-</br>
 </br>
 **Phase 3: Academic Year Development (4 Saturdays in-person & ~12 hours online)**
 
@@ -107,12 +106,10 @@ Snacks
 Laptop optional, not required
 
 </br>
-</br>
 **Phase 3: Academic Year Development (4 Saturdays in-person & ~12 hours online)**
 
 More info coming soon!
 
-</br>
 </br>
 **Phase 4: Summer Wrap-up (3 days in-person - Summer 2016)**
 
@@ -163,7 +160,6 @@ Snacks
 Laptop
 
 </br>
-</br>
 **Phase 3: Academic Year Development (2 days in-person & ~10 hours online)**
 
 More info coming soon!
@@ -211,7 +207,6 @@ Snacks
 <br />
 Laptop
 
-</br>
 </br>
 **Phase 3: Academic Year Development (2 Saturdays in-person & ~10 hours online)**
 
