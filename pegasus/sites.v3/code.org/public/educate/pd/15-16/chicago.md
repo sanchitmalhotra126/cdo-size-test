@@ -4,7 +4,7 @@ nav: pd2_nav
 ---
 <a id="top"></a>
 
-# Region Professional Development
+# Chicago Professional Development
 
 - [I'm attending Computer Science Principles PD](#csp)
 - [I'm attending Exploring Computer Science PD](#ecs)
@@ -23,7 +23,7 @@ The first phase of professional development is a two-hour online introduction th
 
 ### Save the dates
 
-Monday, June 22, 2015 - Friday, June 26, 2015
+Monday, August 3, 2015 - Friday, August 7, 2015
 <br/>
 8:30am - 3:30pm
 <br />
@@ -31,18 +31,15 @@ Breakfast and lunch will be served.
 
 ### Location
 
-Nova Southeastern University (NSU)
+Loyola University - Water Tower Campus
 <br />
-Carl DeSantis Building
+Corboy Law Center
 <br />
-Room 3031
+Room: Kasbeer Hall
 <br />
-3301 College Avenue
+25 E Pearson St
 <br />
-Fort-Lauderdale-Davie, FL 33314
-<br />
-
-NSU is providing free parking to all Code.org PD participants on the 2nd and 3rd floors of the NSU Parking Garage. We will email you a parking pass prior to the event.
+Chicago, IL 60611
 
 #### What do I bring to Phase 2? ####
 Water Bottle
@@ -77,29 +74,37 @@ The first phase of professional development is a two-hour introduction that focu
 **Phase 2: Blended Summer Study (5 days in-person & ~8 hours online)**
 
 ### Save the dates
-
-Monday, June 8, 2015 - Friday, June 12, 2015
-<br/>
+Classroom 1:
+<br />
+Monday, July 6, 2015 - Friday, July 10, 2015
+<br />
 Mon - Thurs: 8:30am - 3:30pm
-<br/>
+<br />
 Friday: 8:30am - 1:30pm
 <br />
+<br />
+Classroom 2:
+<br />
+Monday, August 3, 2015 - Friday, August 7, 2015
+<br />
+Mon - Thurs: 8:30am - 3:30pm
+<br />
+Friday: 8:30am - 1:30pm
+
+
 Breakfast and lunch will be served. 
 
 ### Location
 
-Nova Southeastern University (NSU)
+DePaul University 
 <br />
-Carl DeSantis Building
+College of Computing and Digital Media (CDM)
 <br />
-Room 3047
+Room 924
 <br />
-3301 College Avenue
+243 S. Wabash Ave
 <br />
-Fort-Lauderdale-Davie, FL 33314
-<br />
-
-NSU is providing free parking to all Code.org PD participants on the 2nd and 3rd floors of the NSU Parking Garage. We will email you a parking pass prior to the event.
+Chicago, IL 60604
 
 #### What do I bring to Phase 2? ####
 Water Bottle
@@ -136,7 +141,7 @@ The first phase of professional development is a two-hour online introduction th
 
 ### Save the dates
 
-Wednesday, June 10, 2015 - Friday, June 12, 2015
+Wednesday, July 8, 2015 - Friday, July 10, 2015
 <br/>
 8:00am - 4:30pm
 <br />
@@ -144,18 +149,16 @@ Breakfast and lunch will be served.
 
 ### Location
 
-Nova Southeastern University (NSU)
+Microsoft Technology Center
 <br />
-Carl DeSantis Building
+AON Center, Suite 200
 <br />
-Room 3049
+Room: MPR 2
 <br />
-3301 College Avenue
+200 East Randolph Street
 <br />
-Fort-Lauderdale-Davie, FL 33314
+Chicago, IL 60601
 <br />
-
-NSU is providing free parking to all Code.org PD participants on the 2nd and 3rd floors of the NSU Parking Garage. We will email you a parking pass prior to the event.
 
 #### What do I bring to Phase 2? ####
 Water Bottle
@@ -185,7 +188,7 @@ The first phase of professional development is a two-hour online introduction th
 
 ### Save the dates
 
-Monday, June 8, 2015 - Wednesday, June 10, 2015
+Wednesday, July 8, 2015 - Friday, July 10, 2015
 <br/>
 8:00am - 4:30pm
 <br />
@@ -193,18 +196,16 @@ Breakfast and lunch will be served.
 
 ### Location
 
-Nova Southeastern University (NSU)
+Microsoft Technology Center
 <br />
-Carl DeSantis Building
+AON Center, Suite 200
 <br />
-Room 1047
+Room: MPR 3
 <br />
-3301 College Avenue
+200 East Randolph Street
 <br />
-Fort-Lauderdale-Davie, FL 33314
+Chicago, IL 60601
 <br />
-
-NSU is providing free parking to all Code.org PD participants on the 2nd and 3rd floors of the NSU Parking Garage. We will email you a parking pass prior to the event.
 
 #### What do I bring to Phase 2? ####
 Water Bottle

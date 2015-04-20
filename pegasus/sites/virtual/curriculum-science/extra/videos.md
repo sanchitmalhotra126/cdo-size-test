@@ -3,9 +3,9 @@ title: CS in Science Videos
 ---
 # Middle School CS in Science Videos
 
-Code.org has partnered with the award-winning Project GUTS (Growing Up Thinking Scientifically) to deliver a middle school science program, [CS in Science](/curriculum/mss), consisting of four instructional modules and professional development for the introduction of computer science concepts into science classrooms within the context of modeling and simulation. 
+Code.org has partnered with the award-winning Project GUTS (Growing Up Thinking Scientifically) to deliver a middle school science program, [CS in Science](/curriculum/science), consisting of four instructional modules and professional development for the introduction of computer science concepts into science classrooms within the context of modeling and simulation. 
 
-The videos were created as part of the CS in Science Professional Development Program. The ten videos are intended for teachers to build their background knowledge to get  started in the computer modeling and simulation and to use the four modules in the [CS in Science Curriculum](/curriculum/mss).
+The videos were created as part of the CS in Science Professional Development Program. The ten videos are intended for teachers to build their background knowledge to get  started in the computer modeling and simulation and to use the four modules in the [CS in Science Curriculum](/curriculum/science).
 
 The videos introduce teachers to the curriculum materials and tools, agent-based modeling of complex adaptive systems, using computer models in scientific inquiry, how to use models in the classroom environment, and more.
 
@@ -33,7 +33,7 @@ The videos introduce teachers to the curriculum materials and tools, agent-based
   {title: "10. Introduction to StarLogo Nova", yt: "JWEtE8upGnA", dl: "https://www.dropbox.com/s/snkw16zipgyjlvp/Intro%20to%20Starlogo%20Nova%20-%20SCI%20PD%209BB_1.mp4", dltext: "Download the video"} 
   ]) %>  
 
-Access [CS in Science Curriculum](/curriculum/mss).
+Access [CS in Science Curriculum](/curriculum/science).
 
 Code.org’s library of videos may be redistributed freely on the express conditions that (1) the videos are redistributed AS-IS, (using the embedded video player provided, or download link IF provided) with attribution to Code.org and Project GUTS, (2) the videos are not incorporated into any mash-ups, (3) the videos are used for computer science education purposes, (4) the use of the video does not constitute an endorsement of a 3rd party brand, service or product, and (5) if access to such redistributed Content or Services is provided free of charge.
 
