@@ -3,7 +3,7 @@ title: CS in Science
 ---
 # Middle School CS in Science 
 
-Code.org has partnered with the award-winning Project GUTS (Growing Up Thinking Scientifically) to deliver a middle school science program consisting of four instructional modules and professional development for the introduction of computer science concepts into science classrooms within the context of modeling and simulation. The goal of the program is to situate computer science practices and concepts within the context of life, physical, and earth sciences, and to prepare students to pursue formal, year-long courses in computer science during high school. CS in Science is based on a crosswalk identifying areas of overlap between the NGSS and Computer Science Teachers Association K-12 Computer Science Standards. Download a [brief](mss/files/Code.org_MS_Science_Program_two_pager.pdf) or [full](mss/files/Code.org_MS_Science_Program_four_pager.pdf) description.
+Code.org has partnered with the award-winning Project GUTS (Growing Up Thinking Scientifically) to deliver a middle school science program consisting of four instructional modules and professional development for the introduction of computer science concepts into science classrooms within the context of modeling and simulation. The goal of the program is to situate computer science practices and concepts within the context of life, physical, and earth sciences, and to prepare students to pursue formal, year-long courses in computer science during high school. CS in Science is based on a crosswalk identifying areas of overlap between the NGSS and Computer Science Teachers Association K-12 Computer Science Standards. Download a [brief](science/files/Code.org_MS_Science_Program_two_pager.pdf) or [full](science/files/Code.org_MS_Science_Program_four_pager.pdf) description.
 
 
 ## Videos
@@ -19,7 +19,7 @@ Code.org has partnered with the award-winning Project GUTS (Growing Up Thinking 
   ]) %>  
 
  
-[<button>See the complete collection of ten "CS in Science" videos</button>](mss/extra/videos)
+[<button>See the complete collection of ten "CS in Science" videos</button>](science/extra/videos)
 
 
 ## Curriculum Documents
@@ -28,22 +28,22 @@ The Middle School Science Curriculum includes four modules; each consists of fiv
 
 ### Module 1: Introduction to Computer Modeling and Simulation 
 The Introductory module presents basic concepts in modeling complex systems through hands-on activities and participatory simulations. A series of highly-engaging design-and-build activities guide students through developing their first computer model in StarLogo Nova, a modeling and simulation environment developed at Massachusetts Institute of Technology. 
-[Download Module 1](mss/files/CS_in_Science_Module_1.pdf)
+[Download Module 1](science/files/CS_in_Science_Module_1.pdf)
 
 ### Module 2: Water as a Shared Resource
-In this Earth Science module students will investigate the importance of ground water and the impacts of water usage on aquifer levels as well as explore how to model important parts of the water cycle including evaporation and infiltration of water into different types of soils to recharge the aquifers. [Download Module 2](mss/files/CS_in_Science_Module_2.pdf)
+In this Earth Science module students will investigate the importance of ground water and the impacts of water usage on aquifer levels as well as explore how to model important parts of the water cycle including evaporation and infiltration of water into different types of soils to recharge the aquifers. [Download Module 2](science/files/CS_in_Science_Module_2.pdf)
 
 ### Module 3: Ecosystems as Complex Systems  
-The Life Science module begins with an exploration of a simple predator-prey model to consider who eats whom and what happens when one population grows faster than another. After learning more about ecosystem dynamics, producers and consumers, and interdependent relationships within an ecosystem, students develop their own model of a local ecosystem. [Download Module 3](mss/files/CS_in_Science_Module_3.pdf)
+The Life Science module begins with an exploration of a simple predator-prey model to consider who eats whom and what happens when one population grows faster than another. After learning more about ecosystem dynamics, producers and consumers, and interdependent relationships within an ecosystem, students develop their own model of a local ecosystem. [Download Module 3](science/files/CS_in_Science_Module_3.pdf)
 
 ### Module 4: Chemical Reactions
-The Chemical Reactions module explores the conditions under which chemical reactions occur, the evidence of a chemical reaction, limiting reactants versus reactants in excess, and the conditions under which chemical reactions stop. The chemical reaction simulated is that of silver nitrate and copper.  [Download Module 4](mss/files/CS_in_Science_Module_4.pdf)
+The Chemical Reactions module explores the conditions under which chemical reactions occur, the evidence of a chemical reaction, limiting reactants versus reactants in excess, and the conditions under which chemical reactions stop. The chemical reaction simulated is that of silver nitrate and copper.  [Download Module 4](science/files/CS_in_Science_Module_4.pdf)
 
 ### Download the required curriculum support documents 
 
-- [CS in Science Common Forms](mss/files/CS_in_Science_Common_Forms.pdf)
-- [CS in Science Guides](mss/files/CS_in_Science_Guides.pdf)
-- [Background Paper: "What is a Complex Adaptive System?"](mss/files/CS_in_Science_Background_papers.pdf)
+- [CS in Science Common Forms](science/files/CS_in_Science_Common_Forms.pdf)
+- [CS in Science Guides](science/files/CS_in_Science_Guides.pdf)
+- [Background Paper: "What is a Complex Adaptive System?"](science/files/CS_in_Science_Background_papers.pdf)
 - [Models for use in the classroom](http://www.slnova.org/GUTS/)
 
 [Find more resources at the Project GUTS website](http://www.projectguts.org/CurriculumbyTopic)
@@ -54,7 +54,7 @@ The Chemical Reactions module explores the conditions under which chemical react
 ### Crosswalks between CSTA K-12 Computer Science Standards and the Next Generation Science Standards
 Crosswalks between the *National Research Council’s Framework for K-12 Science Education* and *CSTA K-12 Computer Science Standards*; and between Achieve’s *Next Generation Science Standards* and the *CSTA K-12 Computer Science Standards* illustrate the commonalities that serve as the basis for a set of learning outcomes addressed in the “Computer Science in Science” modules. 
 
-[Download the Crosswalk documents.](mss/files/Crosswalk_documents.pdf)
+[Download the Crosswalk documents.](science/files/Crosswalk_documents.pdf)
 
 
 ## About the Authors
@@ -69,5 +69,5 @@ Lina is a science educator with a background in chemistry and business. Her pass
 <br></br>
 <br></br>
 
-![Code logo](mss/files/codelogo.png) ![Guts.org logo](mss/files/projectGUTSlogosmall.png) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
-![CSTA logo](mss/files/CSTAlogo-2col-url.jpg)
+![Code logo](science/files/codelogo.png) ![Guts.org logo](science/files/projectGUTSlogosmall.png) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+![CSTA logo](science/files/CSTAlogo-2col-url.jpg)
