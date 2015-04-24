@@ -21,7 +21,7 @@ angular: recordsApp
     'recordsApp.services'
   ]).config(['$routeProvider', function($routeProvider) {
     $routeProvider.when('/',
-                        {templateUrl: '/private/edit-csp-table/records',
+                        {templateUrl: '/edit-csp-table/records',
                          controller: 'RecordsController'});
     $routeProvider.otherwise({redirectTo: '/'});
   }]);
