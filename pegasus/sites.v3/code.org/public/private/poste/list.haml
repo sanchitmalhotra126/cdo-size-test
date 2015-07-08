@@ -1,7 +1,8 @@
 ---
 title: Poste Messages
 ---
-= view :breadcrumbs, trail: [{text: 'Poste', url: '/poste'}, {text: 'Messages', url: '/poste/list'}]
+= view :breadcrumbs, trail: [{text: 'Poste', url: './'}, {text: 'Messages', url: 'list'}]
+%br/
 
 :ruby
   rows = DB.fetch("
@@ -21,4 +22,4 @@ title: Poste Messages
         = row[:message]
       %td
         %button
-          %a{href: "/poste/stats?name=#{row[:message]}"} Stats
+          %a{href: "stats?name=#{row[:message]}"} Stats
