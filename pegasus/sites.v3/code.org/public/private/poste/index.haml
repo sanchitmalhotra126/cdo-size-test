@@ -37,7 +37,7 @@
 
 .fake
   %div
-    %a{href:'/poste/tests'}
+    %a{href:'poste/tests'}
       %h2
         A/B Tests
       %h3
@@ -76,7 +76,7 @@
     %td
     %td
     %td
-%a{href:'/poste/list'}
+%a{href:'poste/list'}
   %h2
     Sent Mail
   %h3
@@ -101,7 +101,7 @@
         = row[:message]
       %td
         %button
-          %a{href: "/poste/stats?name=#{row[:message]}"} Stats
+          %a{href: "poste/stats?name=#{row[:message]}"} Stats
 
 %br
 
@@ -130,7 +130,7 @@
       A/B Test Results
   %tr
     %td
-      %a{href:'/poste/mail/message-786'}
+      %a{href:'poste/mail/message-786'}
         K-5 Workshops Recruit Email
     %td
       765
@@ -153,7 +153,7 @@
         View Results
   %tr
     %td
-      %a{href:'/poste/mail/message-786'}
+      %a{href:'poste/mail/message-786'}
         Indiegogo Campaign Email
     %td
       281202

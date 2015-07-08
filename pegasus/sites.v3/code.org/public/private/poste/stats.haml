@@ -6,7 +6,7 @@ title: Poste Stats
     Please select a message from
     %a{href: 'list'} this list
 - else
-  = view :breadcrumbs, trail: [{text: 'Poste', url: '/poste'}, {text: 'Messages', url: '/poste/list'}, {text: params[:name]}]
+  = view :breadcrumbs, trail: [{text: 'Poste', url: './'}, {text: 'Messages', url: 'list'}, {text: params[:name]}]
 
   :ruby
     message_id = DB[:poste_messages].where(name: params[:name]).first[:id]
