@@ -12,7 +12,7 @@ We’ll host a variety of fun, hour-long tutorials, created by a variety of part
 
 **All Hour of Code tutorials:**
 
-- Require minimal prep-time for organisers
+- Require minimal prep-time for organizers
 - Are self-guided - allowing students to work at their own pace and skill-level
 
 <a href="http://<%=codeorg_url() %>/learn"><img src="http://<%= codeorg_url() %>/images/tutorials.png"></a>
