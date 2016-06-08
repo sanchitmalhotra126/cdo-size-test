@@ -5,45 +5,11 @@ nav: educate_nav
 
 # Computer Science Principles Lessons #
 
-## Unit 1
+## v1 Unit 4
 
-### Quick Links
+In response to feedback from our 2015-2016 pilot teachers, we are reordering, condensing, and clarifying lesson content. You can learn more about the updates [here](https://docs.google.com/document/export?format=pdf&id=1ElvZenQSCigqBXKEHnXYRruck7umCJd699aippGCfLQ). Unit 4 of the 2016-2017 curriculum is **'Big Data and Privacy'**, which represents merging the related ideas about big data and its implications along with how modern data encryption works.
 
-[General CSP Forum](http://forum.code.org/c/csp) | [Unit 1 Discussion Forum](http://forum.code.org/c/csp-unit1) |  [CSP Unit 1 in Code Studio](https://studio.code.org/s/cspunit1)  | [Writing Team](team) 
-
-
-
-<table>
-	<tr>
-		<td width=66% style="padding: 3px; border-color: white">
-		<h3>Important notes about lessons and digital tools</h3>
-		<ul>
-				<li>To use the tools in this course and be able to see your students' progress, first <a href="/teacher-dashboard#/sections">create a new section</a> in the teacher dashboard. The recommended Login Type is 'Email' and the Course is 'cspunit1'. <i>Note:</i> Students must be part of the same section to use the Internet Simulator together.</li> 
-				
-				<li> When you go to <a href="https://studio.code.org/s/cspunit1">Unit 1 in Code Studio</a> each "stage" number corresponds to the lesson number.</li> 
-
-				<li> Unlike other Code.org courses, lessons for CSP on Code Studio are <strong>not self-guided</strong>. They require specific structure and context provided by the classroom teacher through the lesson plan. 
-
-				<li>  When exploring the curriculum, or preparing for a lesson, <strong>start with the lesson plan</strong>, which contains all of the necessary details and links for how and when to use the online tools.
-
-				<li>The course on Code Studio is in beta, so it is subject to revision as feedback is received and improvements are made.
-				</ul>
-		</td>
-		<td style="padding: 3px; border-color: white" align=center>
-			<a href="https://studio.code.org/s/cspunit1"><img src="images/codeStudioScreenCap.png" align=right width=100%>
-			https://studio.code.org/s/cspunit1</a>
-		</td>
-</tr>
-</table>
-
-<br/>
-### Resources
-
-<ul>
-<li> You can view all of the lessons in Unit 1 through <strong><a href = "http://bit.ly/csp-unit1" target="_blank">this Google Drive folder</a></strong></li>
-<li> If you're a teacher, you can apply for Code Studio access to protected, teacher-only materials (answer keys, etc) through <strong><a href = "https://docs.google.com/forms/d/1f5QPKi3F_3nBDR8q9BcXCqixzY7SCQd7Seob0-JYizU/viewform" target="_blank">this form</a></strong> </li>
-</ul>
-
+The table below shows the sequence of lessons in this unit. The lessons in the table are lessons from the '15-'16 version of the curriculum and will undergo a revisions pass by October 1. If you need to teach this unit prior to October 1, we still recommend using the original lessons in the order presented below, as the core content will not be changing during the revisions pass.
 <br/><br/>
 
 | Lesson Description| Lesson Plan | 
