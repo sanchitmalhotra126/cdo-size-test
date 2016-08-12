@@ -1,8 +1,7 @@
 ---
-title: Hour of Code Advisory Board
-nav: about_nav
+title: Hour of Code and CS Ed Week Advisory Committee
 ---
-# Hour of Code Advisory Board
+# Hour of Code and CS Ed Week Advisory Committee
 
 <%= view :about_headshots, people:DB[:cdo_team].where(kind_s:'hoc_advisor'), :columns=>3 %>
 
