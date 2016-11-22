@@ -1,7 +1,7 @@
 
 ---
 title: Communications
-nav: plp_playbook_nav
+nav: regional_partner_playbook_nav
 ---
 
 # Communications Playbook
