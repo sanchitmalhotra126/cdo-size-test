@@ -1,6 +1,6 @@
 ---
 title: Teacher and District Recruitment
-nav: plp_playbook_nav
+nav: regional_partner_playbook_nav
 ---
 <a id="top"></a>
 
@@ -18,11 +18,16 @@ ________________
 <br/>
 
 
-## **District Outreach**
+## District Outreach
+test test test
+
+### The Outreach Pipleine
+[How to Bring Computer Science to a District](https://docs.google.com/document/d/1cBSwosx1SNy7ydOjTrtYmeq6oZLkxSSHptGD3HfdtFM/view)
+This document walks through the full outreach process, from identifying interested districts to closing a partnership to make CS accessable to all students.  It includes helpful questions to ask along the way, and list of issues to address at the district level and in individual school sites.
 
 ### Pitching Computer Science
 
-[Code.org Why CS Pitch Deck](TODO: ADD LINK)<br/>
+[Code.org Why CS Pitch Deck](https://docs.google.com/presentation/d/1PoCuK8zqQd_1m75deyJoUKbslybnBAWLOOoX4ww6NV0/edit?usp=sharing)<br/>
 This is the slide deck Code.org uses to explain why computer science education is important and how a school/district can begin to implement computer science courses.
 
 [Curriculum Details](https://code.org/educate/professional-learning-partner/playbook/curriculum) can be found on the curriculum tile of the playbook.  These one pagers and longer descriptions can be shared with decision makers that want to learn more about the Code.org courses and professional learning.

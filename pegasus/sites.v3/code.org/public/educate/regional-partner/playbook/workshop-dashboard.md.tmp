@@ -1,6 +1,6 @@
 ---
 title: Dashboard 101
-nav: plp_playbook_nav
+nav: regional_partner_playbook_nav
 
 ---
 <a id="top"></a>
