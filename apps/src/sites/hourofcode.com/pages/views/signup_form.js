@@ -1,8 +1,4 @@
-var google;
-var thanksUrl;
-var signupErrorMessage;
-var censusErrorMessage;
-var hocYear;
+/* globals google thanksUrl signupErrorMessage censusErrorMessage hocYear */
 
 $(document).ready(function () {
   new google.maps.places.SearchBox(document.getElementById('hoc-event-location'));
