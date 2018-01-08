@@ -13,17 +13,27 @@ theme: responsive
 
 [col-50]
 
-Our CS Principles Professional Learning program offers year round support designed for educators teaching a semester or full-year course. You don't need any prior computer science experience to get started!
+### Applications for the 2018-19 CS Principles Professional Learning Program are now available!
 
-The program kicks off with a 5-day summer workshop where you'll have the opportunity to work hands-on with the [CS Principles curriculum](/educate/csp). Throughout the year, we offer online support for upcoming units, forum support, and 1-day quarterly workshops. 
+- Step 1: Read the [Code.org Professional Learning Program Overview](/files/PLProgramsOverview_1-Pager.pdf) and the <a href="https://docs.google.com/document/d/1d3BRQt7NARChV6ZPgwyxJNP4TSYyBlo06m2TvJjOnwQ/edit#", target=_"blank">Program FAQs</a>.
+- Step 2: Check out the course page for [CS Principles](/educate/csp).
+- Step 3: Set aside 15 - 20 minutes to complete the application.
 
-**Applications for the 2018-19 [CS Principles Professional Learning Program](/files/PLProgramsOverview_1-Pager.pdf) will open in January, 2018.** If you are interested in joining in 2018-19, sign up below. 
+**Ready to get started?**
 
-<a href="https://studio.code.org/pd/regional_partner_contact/new"><button>Tell me when applications open!</button>
+[<button>Apply now!</button>](https://studio.code.org/pd/application/teacher)
+
+_The priority deadline for applications is March 30, 2018. Applications submitted after March 30 will only be reviewed at our Regional Partners' discretion._ 
 
 [/col-50]
 
 <div style="clear: both;"></div>
+
+<hr/>
+
+Our CS Principles Professional Learning program offers year round support designed for educators teaching a semester or full-year course. You don't need any prior computer science experience to get started!
+
+The program kicks off with a 5-day summer workshop where you'll have the opportunity to work hands-on with the [CS Principles curriculum](/educate/csp). Throughout the year, we offer online support for upcoming units, forum support, and 1-day quarterly workshops. For more information about our goals and approach to professional learning, check out our [professional learning values](educate/professional-learning/values).
 
 <%= view :three_circles, circles: [
 {img: '/images/testimonials/fit-150/teachers-1.png', text: '90% of workshop attendees ranked it the best professional development ever.'},
@@ -77,9 +87,17 @@ Not sure if this is the right Code.org program for you? [Check out our program r
 
 ## <a name="apply"></a>How to apply?
 
-**Applications for the 2018-19 CS Principles Professional Learning Program will open in January, 2018.** If you are interested in joining in 2018-19, sign up below. 
+Be sure to complete the following steps before you apply.
 
-[<button>Tell me when applications open!</button>](https://studio.code.org/pd/regional_partner_contact/new)
+- Step 1: Read the [Code.org Professional Learning Program Overview](/files/PLProgramsOverview_1-Pager.pdf) and the <a href="https://docs.google.com/document/d/1d3BRQt7NARChV6ZPgwyxJNP4TSYyBlo06m2TvJjOnwQ/edit#", target=_"blank">Program FAQs</a>.
+- Step 2: Check out our course page for [CS Principles](/educate/csp).
+- Step 3: Set aside 15 - 20 minutes to complete the application.
+
+Ready to get started?
+
+[<button>Apply now!</button>](https://studio.code.org/pd/application/teacher)
+
+_The priority deadline for applications is March 30, 2018. Applications submitted after March 30 will only be reviewed at our Regional Partners' discretion._ 
 
 ## <a name="facilitate"></a>Become a CS Principles Facilitator
 
