@@ -1,19 +1,19 @@
 ---
-title: TeacherCon Phoenix
+title: TeacherCon Atlanta
 theme: responsive
 ---
 <a id="top"></a>
 
 [solid-block-header]
 
-TeacherCon Phoenix
+TeacherCon Atlanta
 
 [/solid-block-header]
-## July 22-27, 2018
+## June 17-22, 2018
 
 [col-50]
 
-<p align="left"><img src="/images/PhoenixSkyline.jpg" width="95%"></p> 
+<p align="left"><img src="/images/ATL.jpg" width="95%"></p> 
 
 [/col-50]
 
@@ -39,9 +39,9 @@ Over the course of the week, you will join with hundreds of teachers from across
   <br>
 TeacherCon accomodations as well as all conference sessions will take place at:
 
-[Sheraton Grand Phoenix](http://www.sheratonphoenixdowntown.com/)
-<br> 340 North 3rd Street
-<br> Phoenix, AZ 85004
+[Sheraton Atlanta Downtown](http://www.starwoodhotels.com/sheraton/property/photos/gallery.html?propertyID=1144)
+<br> 165 Courtland Street NE
+<br> Atlanta, GA 30303
   
 </p>
 </details>
@@ -77,7 +77,7 @@ You will not need to rent a vehicle while at TeacherCon since all conference ses
 <summary>**Can I share a ride from the airport to the hotel with fellow TeacherCon attendees?**</summary>
 <p>
 <br>
-For privacy reasons, Code.org is not able to share attendee contact information, but you're welcome to meet up with each other at the airport and ride together to the hotel. If you'd like to share a ride, our suggestion is to join a group meeting every 30 minutes between 10 am and 4:30 pm at any of the [designated rideshare pickup locations at PHX Sky Harbor](https://www.skyharbor.com/ParkingTransportation/ride-share). Then order a taxi, Uber, or Lyft together. **Please note that Code.org staff will not be at the meeting location.** When you get to the pickup location, make sure to ask others nearby if they are part of TeacherCon.
+For privacy reasons, Code.org is not able to share attendee contact information, but you're welcome to meet up with each other at the airport and ride together to the hotel. If you'd like to share a ride, our suggestion is to join a group meeting every 30 minutes between 10 am and 4:30 pm at any of the [designated rideshare pickup locations at ATL Hartsfield-Jackson](http://www.atl.com/rideshare/). Then order a taxi, Uber, or Lyft together. **Please note that Code.org staff will not be at the meeting location.** When you get to the pickup location, make sure to ask others nearby if they are part of TeacherCon.
 </p> 
 </details>
 
