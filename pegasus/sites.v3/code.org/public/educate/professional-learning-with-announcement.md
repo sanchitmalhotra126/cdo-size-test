@@ -10,7 +10,8 @@ theme: responsive
   }
 </style>
 
-# K-12 Code.org Professional Learning#
+# K-12 Professional Learning Programs#
+<%= view :professional_learning_apply_banner %>
 
 
 
@@ -20,10 +21,8 @@ Code.org offers hands-on workshops and online support at no charge. Over 72,000 
 
 ## Professional Learning Program Offerings
 Select the grade level below to learn more about our programs. Have questions about which program is for you? Learn more about [implementation options](/files/PL-Program-for-Me.pdf) or contact us at [teacher@code.org](mailto: teacher@code.org):
-<br>
-
 <details>
- <summary style="font-size: 20px; color: #7665a0;">**Elementary School Professional Learning**</summary>
+ <summary>**Elementary School Professional Learning**</summary>
   <p>
   
 * You don't need any previous experience teaching computer science to join us. 
@@ -42,14 +41,14 @@ Select the grade level below to learn more about our programs. Have questions ab
 </details>
 
 <details>
-<summary>**Middle School Professional Learning** - *Applications for 2018 Just Opened!*<img src="/images/professional-learning/plane.png" width="4%"/></summary>
+<summary>**Middle School Professional Learning** - *Applications for 2018 Just Opened!*</summary>
  <p>
 
 * You don't need any prior computer science experience to get started
 * The program kicks off with a 5-day summer workshop where you'll have an opportunity to work hands-on with the curriculum and meet other teachers from your area.
 * Throughout the year, we offer online support for upcoming units, forum support, and 1-day quarterly workshops. 
 * We are a nonprofit dedicated to helping schools teach computer science. In most states, our professional learning is offered at no cost to you or your school.
-* Our [Computer Science Discoveries curriculum](/educate/csd) is designed for educators in the 6th - 10th grade classrooms. The course can be taught as a semester or full-year introduction and covers a broad range of topics such as physical computing, building websites, programming and learning about data
+* Our [Computer Science Discoveries curriculum](/educate/cs-discoveries) is designed for educators in the 6th - 10th grade classrooms. The course can be taught as a semester or full-year introduction and covers a broad range of topics such as physical computing, building websites, programming and learning about data
 <br/>
 
 [<button>Professional Learning for CS Discoveries</button>](/educate/professional-learning/cs-discoveries)
@@ -60,7 +59,7 @@ Select the grade level below to learn more about our programs. Have questions ab
 
 
 <details>
-<summary>**High School Professional Learning** - *Applications for 2018 Just Opened!*<img src="/images/professional-learning/plane.png" width="4%"/></summary>
+<summary>**High School Professional Learning** - *Applications for 2018 Just Opened!*</summary>
 <p> 
 
 
@@ -70,13 +69,17 @@ Select the grade level below to learn more about our programs. Have questions ab
 * We are a nonprofit dedicated to helping schools teach computer science. In most states, our professional learning is offered at no cost to you or your school.
 <br/><br/>
 **We have two curriculum options for high school classrooms:** 
-* For younger students, our [Computer Science Discoveries curriculum](/educate/csd) is designed for 6th - 10th grade classrooms. The course can be taught as a semester or full-year introduction and covers a broad range of topics such as physical computing, building websites, programming and learning about data.
-* Our [Computer Science Principles curriculum](/educate/csp) is also an introductory course that requires no computer science background (from students or teachers). We recommend it for 9th-12th grade students with stronger reading and writing skills. It can be taught as an AP or non-AP course. More than a traditional introduction to programming, it is a rigorous, engaging, and approachable course that explores many of the foundational ideas of computing so all students understand how these concepts are transforming the world we live in.
+* For younger students, our [Computer Science Discoveries curriculum](/educate/cs-discoveries) is designed for 6th - 10th grade classrooms. The course can be taught as a semester or full-year introduction and covers a broad range of topics such as physical computing, building websites, programming and learning about data.
+* Our [Computer Science Principles curriculum](/educate/cs-principles) is also an introductory course that requires no computer science background (from students or teachers). We recommend it for 9th-12th grade students with stronger reading and writing skills. It can be taught as an AP or non-AP course. More than a traditional introduction to programming, it is a rigorous, engaging, and approachable course that explores many of the foundational ideas of computing so all students understand how these concepts are transforming the world we live in.
 
 
 [<button>Professional Learning for CS Discoveries</button>](/educate/professional-learning/cs-discoveries)&nbsp;&nbsp; [<button>Professional Learning for CS Principles</button>](/educate/professional-learning/cs-principles)
 
+
+
  <br/>
+
+
 
 </p>
 </details>
@@ -93,8 +96,6 @@ You can also contact our [international partners](https://hourofcode.com/interna
 </details>
 
 
-
-<br/>
 ## Attendees love our professional learning!
 72,000 teachers have participated.
 98% of attendees would recommend our program to another teacher.
@@ -105,7 +106,7 @@ The majority of our workshop attendees rank it the **best professional developme
 {img: '/images/testimonials/fit-150/teacher-renee.jpg', text: '"I would absolutely recommend anything Code.org has to offer to any teacher. Period. The lesson plans are incredible."'},
 {img: '/images/testimonials/fit-150/teacher-juan.jpg', text: '"It was absolutely rich and the most meaningful training I have ever attended in 16 years of teaching."'}] %>
 
-<br>
+<br/>
 
 <img src="/images/k5pdcropped.jpg" width="100%"/>
 
