@@ -3,21 +3,20 @@ title: <%= hoc_s(:title_how_to) %>
 layout: wide
 nav: how_to_nav
 ---
-
 <%= view :signup_button %>
 
 <h1>How to teach one Hour of Code</h1>
 
 Join the movement and introduce a group of students to their first hour of computer science with these steps. The Hour of Code is easy to run - even for beginners! If you'd like an extra set of hands to help out, you can find a [local volunteer](<%= codeorg_url('/volunteer/local') %>) to help run an Hour of Code in your class.
 
-## 1. Watch this how-to video
-<iframe width="500" height="255" src="//www.youtube.com/embed/SrnvvWDm73k" frameborder="0" allowfullscreen></iframe>
+## 1. Watch this how-to video <iframe width="500" height="255" src="//www.youtube.com/embed/SrnvvWDm73k" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 ## 2. Choose a tutorial for your hour
-We provide a variety of fun, [student-guided tutorials](<%= resolve_url('/learn') %>) for all age groups and experience levels. Students do the activities on their own, though many activities include lesson plans for teachers (you'll see the link when you click the activity) to guide discussion or extend the activity.
-[<img src="/images/fit-700/tutorials.png">](<%=resolve_url('/learn') %>)
+
+We provide a variety of fun, [student-guided tutorials](<%= resolve_url('/learn') %>) for all age groups and experience levels. Students do the activities on their own, though many activities include lesson plans for teachers (you'll see the link when you click the activity) to guide discussion or extend the activity. [![](/images/fit-700/tutorials.png)](<%=resolve_url('/learn') %>)
 
 ## 3. Promote your Hour of Code
+
 Promote your Hour of Code [with these tools](<%= resolve_url('/promote/resources') %>) and encourage others to host their own events.
 
 ## 4. Plan your technology needs - computers are optional
@@ -30,7 +29,7 @@ Provide headphones for your class, or ask students to bring their own, if the tu
 
 **Don't have enough devices?** Use [pair programming](https://www.youtube.com/watch?v=vgkahOzFH2Q). When students partner up, they help each other and rely less on the teacher. They’ll also see that computer science is social and collaborative.
 
-<img src="/images/fit-350/group_ipad.jpg">
+<img src="/images/fit-350/group_ipad.jpg" />
 
 ## 5. Start your Hour of Code off with an inspiring speaker or video
 
@@ -46,7 +45,6 @@ Provide headphones for your class, or ask students to bring their own, if the tu
 - Explain ways that technology impacts our lives, with examples both boys and girls will care about (talk about saving lives, helping people, connecting people, etc.).
 - As a class, list things that use code in everyday life.
 - See tips for getting girls interested in computer science [here](<%= codeorg_url('/girls')%>).
-
 
 ## 6. Code!
 
@@ -67,7 +65,7 @@ Provide headphones for your class, or ask students to bring their own, if the tu
 
 [col-33]
 
-<img src="/images/fit-250/highschoolgirls.jpeg"/>
+![](/images/fit-250/highschoolgirls.jpeg)
 
 [/col-33]
 
@@ -77,7 +75,7 @@ Provide headphones for your class, or ask students to bring their own, if the tu
 
 [col-33]
 
-<img src="/images/fit-300/boy-certificate.jpg"/>
+![](/images/fit-300/boy-certificate.jpg)
 
 [/col-33]
 
@@ -88,20 +86,19 @@ Provide headphones for your class, or ask students to bring their own, if the tu
 
 [col-33]
 
-<img src="/images/fit-260/highlight-certificates.jpg"/>
+![](/images/fit-260/highlight-certificates.jpg)
 
 [/col-33]
-
 
 <p style="clear:both">&nbsp;</p>
 
 ## Other Hour of Code resources for educators:
-- Visit the [Hour of Code Teacher Forum](http://forum.code.org/c/plc/hour-of-code) to get advice, insight and support from other educators.
-<% if @country == 'us' %>
-- Review the [Hour of Code FAQ](https://support.code.org/hc/en-us/categories/200147083-Hour-of-Code).
-<% end %>
+
+- Visit the [Hour of Code Teacher Forum](http://forum.code.org/c/plc/hour-of-code) to get advice, insight and support from other educators. <% if @country == 'us' %>
+- Review the [Hour of Code FAQ](https://support.code.org/hc/en-us/categories/200147083-Hour-of-Code). <% end %>
 
 ## What comes after the Hour of Code?
+
 The Hour of Code is just the first step on a journey to learn more about how technology works and how to create software applications. To continue this journey:
 
 - Encourage students to continue to [learn online](<%= codeorg_url('/learn/beyond')%>).
