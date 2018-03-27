@@ -3,13 +3,12 @@ title: <%= hoc_s(:title_how_to_companies) %>
 layout: wide
 nav: how_to_nav
 ---
-
 <%= view :signup_button %>
 
 # How to bring the Hour of Code to your company
 
-
 ## Inspire students and volunteer for the Hour of Code
+
 Code.org offers the opportunity for your employees to [connect](<%= codeorg_url('/volunteer') %>) with local classrooms doing the Hour of Code where they can share their tech career experience and inspire students to study computer science.
 
 - [Sign up](<%= codeorg_url('/volunteer') %>) to volunteer.
@@ -21,22 +20,22 @@ Code.org offers the opportunity for your employees to [connect](<%= codeorg_url(
 - Host an Hour of Code Happy Hour with coworkers to try the [activities](<%= resolve_url('/learn') %>).
 - Host an Hour of Code event for a local classroom of students or non profits partners to do an Hour of Code at your company’s office. See event how-to guide below.
 
-
 # How to host an Hour of Code event with students
 
 ## 1. Promote your Hour of Code
+
 - Promote your [Hour of Code](<%= resolve_url('/promote') %>) event and encourage others to host.
 - Encourage software engineers at your company to visit a local classroom to help lead an Hour of Code and inspire students to study computer science. They can [sign up](<%= codeorg_url('/volunteer/engineer') %>) to be connected with a classroom.
 
-## 2. Watch this how-to video
-<iframe width="500" height="255" src="//www.youtube.com/embed/SrnvvWDm73k" frameborder="0" allowfullscreen></iframe>
+## 2. Watch this how-to video <iframe width="500" height="255" src="//www.youtube.com/embed/SrnvvWDm73k" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 ## 3. Choose an activity
+
 We host a variety of [fun, hour-long activities](<%= resolve_url('/learn') %>) for participants of all ages, created by a variety of partners. [Try them out!](<%= resolve_url('/learn') %>)
 
 **All Hour of Code activities** require minimal prep-time, and are self-guided - allowing participants to work at their own pace and skill-level.
 
-[<img src="/images/fit-700/tutorials.png">](<%= resolve_url('/learn') %>)
+[![](/images/fit-700/tutorials.png)](<%= resolve_url('/learn') %>)
 
 ## 4. Plan your technology needs - computers are optional
 
@@ -49,9 +48,10 @@ The best Hour of Code experience includes Internet-connected computers. But you 
 - **Don't have enough devices?** Use [pair programming](https://www.youtube.com/watch?v=vgkahOzFH2Q). When participants partner up, they help each other and rely less on the organizer. They’ll also see that computer science is social and collaborative.
 - **Have low bandwidth?** Plan to show videos at the front of the event, so each participant isn't downloading their own videos. Or try the unplugged / offline activities.
 
-<img src="/images/fit-350/group_ipad.jpg">
+<img src="/images/fit-350/group_ipad.jpg" />
 
-## 5.  Start your Hour of Code off with an inspiring video
+## 5. Start your Hour of Code off with an inspiring video
+
 Kick off your Hour of Code by inspiring participants and discussing how computer science impacts every part of our lives. Share more about what inspired you to pursue computer science and your role at your company.
 
 **Show an inspirational video:**
@@ -70,6 +70,7 @@ Kick off your Hour of Code by inspiring participants and discussing how computer
 - See tips for getting girls interested in computer science [here](<%= codeorg_url('/girls') %>).
 
 ## 6. Code!
+
 **Direct participants to the activity**
 
 - Write the activity link on a whiteboard. Find the link listed on the [information for your selected activity](<%= resolve_url('/learn') %>) under the number of participants.
@@ -88,18 +89,17 @@ Kick off your Hour of Code by inspiring participants and discussing how computer
 
 [col-33]
 
-<img src="/images/fit-250/highschoolgirls.jpeg"/>
+![](/images/fit-250/highschoolgirls.jpeg)
 
 [/col-33]
 
 [col-33]
 
-<img src="/images/fit-300/group_ar.jpg"/>
+![](/images/fit-300/group_ar.jpg)
 
 [/col-33]
 
 <p style="clear:both">&nbsp;</p>
-
 
 ## 7) Celebrate
 
@@ -110,19 +110,19 @@ Kick off your Hour of Code by inspiring participants and discussing how computer
 
 [col-33]
 
-<img src="/images/fit-250/celebrate2.jpeg"/>
+![](/images/fit-250/celebrate2.jpeg)
 
 [/col-33]
 
 [col-33]
 
-<img src="/images/fit-260/highlight-certificates.jpg"/>
+![](/images/fit-260/highlight-certificates.jpg)
 
 [/col-33]
 
 [col-33]
 
-<img src="/images/fit-300/boy-certificate.jpg"/>
+![](/images/fit-300/boy-certificate.jpg)
 
 [/col-33]
 

@@ -3,29 +3,31 @@ title: <%= hoc_s(:title_how_to_parents) %>
 layout: wide
 nav: how_to_nav
 ---
-
 <%= view :signup_button %>
 
 # How to complete an Hour of Code with your child
+
 Complete an Hour of Code at home, or volunteer to bring it to your child’s classroom! Here’s how:
 
-## 1) Watch this how-to video
-<iframe width="500" height="255" src="//www.youtube.com/embed/SrnvvWDm73k" frameborder="0" allowfullscreen></iframe>
+## 1) Watch this how-to video <iframe width="500" height="255" src="//www.youtube.com/embed/SrnvvWDm73k" frameborder="0" allowfullscreen mark="crwd-mark"></iframe> 
 
 ## 2) Choose a tutorial:
+
 We provide a variety of fun, hour-long tutorials for students of all ages, created by a variety of partners. [Try them out!](<%= resolve_url('/learn') %>)
 
 **All Hour of Code tutorials are self-guided - allowing your child to work at their own pace and skill level**
 
-[<img src="/images/fit-700/tutorials.png">](<%= resolve_url('/learn') %>)
+[![](/images/fit-700/tutorials.png)](<%= resolve_url('/learn') %>)
 
 ## 3) Plan your technology needs
+
 The best Hour of Code experience will be with Internet-connected computers. But you **don’t** need a computer. There are many activities that are "unplugged" and can be done without any technology at all.
 
 - Test tutorials on your computer or device. Make sure they work properly on browsers with sound and video.
 - **Want to learn alongside your child?** Try [pair programming.](http://www.ncwit.org/resources/pair-programming-box-power-collaborative-learning) Computer science is social and collaborative.
 
 ## 4) Start your Hour of Code off with an inspiring video
+
 Kick off your Hour of Code by inspiring your child and discussing how computer science impacts every part of our lives.
 
 **Show an inspirational video:**
@@ -45,7 +47,7 @@ Want more ideas? Check out our [template lesson plan](/files/AfterschoolEducator
 
 ## 5) Code!
 
-<img src="/images/fit-700/tutorial-short-link.png">
+<img src="/images/fit-700/tutorial-short-link.png" />
 
 When you've chosen the tutorial you would like to do, you can bookmark the tutorial's short link.
 
@@ -57,8 +59,8 @@ It’s okay to respond:
 - “Technology doesn’t always work out the way we want.”
 - “Learning to program is like learning a new language; you won’t be fluent right away.”
 
-
 ## 6) Celebrate
+
 [Print certificates](<%= codeorg_url('/certificates') %>) for your child (and yourself!).
 
 Share photos and videos of your Hour of Code event on social media. Use #HourOfCode and @codeorg so we can highlight your success, too!

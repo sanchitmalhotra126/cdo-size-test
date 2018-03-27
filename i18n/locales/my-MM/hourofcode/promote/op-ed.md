@@ -3,13 +3,14 @@ title: <%= hoc_s(:title_op_ed) %>
 layout: wide
 nav: promote_nav
 ---
-
 <%= view :signup_button %>
 
 ### Below is a sample op-ed supportive of Computer Science Education Week and its goals that could be used by state, local legislators, business leaders etc.
-<br/>
 
-Go to [code.org/promote](<%= codeorg_url('/promote') %>) to find state specific information about computer science.
+  
+
+
+Go to [code.org/promote](%= codeorg_url('/promote') %) to find state specific information about computer science.
 
 **Title: Computing…Where the Jobs Are**
 
