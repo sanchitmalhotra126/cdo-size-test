@@ -4,5 +4,5 @@ theme: responsive
 style_min: true
 ---
 
-# Take Acion in Your State
+# Take Action in Your State
 
