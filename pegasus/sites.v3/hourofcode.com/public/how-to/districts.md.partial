@@ -25,7 +25,7 @@ Post to [Facebook](https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fhou
 ### 4. Promote on your district’s homepage
 Let visitors know about your participation and Hour of Code events. Link it to [Hour of Code](<%= resolve_url('/') %>).
 
-### 5. Host a district Hour of Code event 
+### 5. Host a district Hour of Code event
 See our [event how to guide](<%= resolve_url('/how-to/events') %>) for a sample run of show, media outreach kit, and other supports.
 
 
