@@ -1,5 +1,5 @@
 ---
-title: <%= hoc_s(:title_international_partners).inspect %>
+title: Contact International Partners
 layout: wide
 ---
 
@@ -9,11 +9,11 @@ layout: wide
   }
 </style>
 
-<%= view :signup_button %>
+{{ signup_button }}
 
 # Contact International Partners
 
-Code.org works with many organizations around the world to make the Hour of Code a truly international movement. Did you know that in 2017, 60% of all Hour of Code events occurred outside of the U.S.? 
+Code.org works with many organizations around the world to make the Hour of Code a truly international movement. Did you know that in 2017, 60% of all Hour of Code events occurred outside of the U.S.?
 
 You, too, can play a leading role to get more people in your country involved! If you're in one of the countries below, reach out to the listed partner and get connected with your local Hour of Code.
 
@@ -70,7 +70,7 @@ You, too, can play a leading role to get more people in your country involved! I
 | Japan                                 | 湘南ゼミナール (Shonan Seminar)                                   | Team Hour of Code                    | https://shozemi.com                                                                                |
 | Kazakhstan                            | Love to Code                                                      | Alyona Tkachenko                     | alyona@lovetocode.kz                                                                               |
 | Kenya                                 | Uzima Aid                                                         | Nicholas Juma                        | http://www.uzimaid.org <br> nicholasjuma@uzimaid.org                                               |
-| Kuwait                                | Makers Academy                                                    |                                      | http://makersacademy.net/ <br> a.alsaleh@bbrains.net                                               | 
+| Kuwait                                | Makers Academy                                                    |                                      | http://makersacademy.net/ <br> a.alsaleh@bbrains.net                                               |
 | Lebanon                               | Rana Maroun Jbeily Foundation                                     |                                      | rmjfoundation@hotmail.com                                                                          |
 | Malaysia                              | Malaysia Digital Economy Corporation (MDEC)                       | Mohamad Zulfadli Mohd Amin           | https://www.mdec.my <br> zulfadli.amin@mdec.com.my                                                 |
 | Malaysia                              | Telebort Technologies Sdn Bhd                                     |                                      | www.telebort.com                                                                                   |
@@ -91,7 +91,7 @@ You, too, can play a leading role to get more people in your country involved! I
 | Nigeria                               | The Zariah Elizabeth Foundation                                   | Akindayo Akindolani                  | www.tzefoundation.org <br> dayo@tzefoundation.org                                                  |
 | Norway                                | Lær Kidsa Koding                                                  | Line Moseng                          | https://kidsakoder.no                                                                              |
 | Oman                                  | Engineering Village                                               |                                      | www.ev-center.com                                                                                  |
-| Pakistan                              | DIGIT                                                             | Majid Hussain                        | https://digit.com.pk/ <br> majid.hussain@digit.com.pk                                              | 
+| Pakistan                              | DIGIT                                                             | Majid Hussain                        | https://digit.com.pk/ <br> majid.hussain@digit.com.pk                                              |
 | Pakistan                              | KnowledgeJump                                                     | Nasir Farhat Khan                    | nasir@knowledgejump.net                                                                            |
 | Pakistan                              | TechValley                                                        | Dr. Waqar S. Qureshi                 |                                                                                                    |
 | Peru                                  | Code en mi Cole                                                   | Renzo Sousa                          | http://codenmicole.com                                                                             |
@@ -105,8 +105,8 @@ You, too, can play a leading role to get more people in your country involved! I
 | Rwanda                                | Children’s Creativity Lab                                         | Ildephonse Mungwarakarama            | http://creativity.rw <br> ildephonse@creativity.rw                                                 |
 | Singapore                             | Infocomm Media Development Authority of Singapore                 |                                      | https://www.imda.gov.sg                                                                            |
 | Slovakia                              | Accenture                                                         | Martina Pometlova                    | http://ds.blf.sk <br> sk.hourofcode@accenture.com                                                  |
-| South Africa                          | Code for Change                                                   |                                      | http://www.codeforchange.co.za                                                                     | 
-| South Africa                          | ITC CLUB Mpumalanga                                               | Nomusa Keninda                       | http://mpumalangaictclub.blogspot.com                                                              |  
+| South Africa                          | Code for Change                                                   |                                      | http://www.codeforchange.co.za                                                                     |
+| South Africa                          | ITC CLUB Mpumalanga                                               | Nomusa Keninda                       | http://mpumalangaictclub.blogspot.com                                                              |
 | South Korea                           | Korea Information Science Education Federation                    |                                      | http://kcode.kr <br> hwankim92@gmail.com                                                           |
 | Spain                                 | Acludi                                                            | Juana Martínez                       | www.acludi.blogspot.com <br> acludi@yahoo.com                                                      |
 | Spain                                 | CSTA Spain                                                        | Santiago Fernández-Cabaleiro         | www.aapri.es <br> santiagocabaleiro@gmail.com                                                      |
@@ -122,4 +122,4 @@ You, too, can play a leading role to get more people in your country involved! I
 | UK                                    | Computing At School (CAS)                                         | Abi Edwards                          | http://www.computingatschool.org.uk <br> compatsch@bcs.uk                                          |
 | Vietnam                               | Microsoft Vietnam                                                 | Nhi Le                               | https://www.microsoft.com/vi-vn <br> nhile@microsoft.com                                           |
 
-<%= view :signup_button %>
+{{ signup_button }}
