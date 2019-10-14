@@ -1,28 +1,33 @@
-/* global Maplace */
+/* global $, Maplace */
 
 var gmap;
 var gmap_loc;
 var selectize;
 
-$(function () {
-  selectize = $('#class-search-facets select').selectize({plugins: ["remove_button"]});
+$(function() {
+  selectize = $('#class-search-facets select').selectize({
+    plugins: ['remove_button']
+  });
 
   setFacetDefaults();
 
-  $("#location").geocomplete()
-    .bind("geocode:result", function (event, result) {
+  $('#location')
+    .geocomplete()
+    .bind('geocode:result', function(event, result) {
       var loc = result.geometry.location;
       gmap_loc = loc.lat() + ',' + loc.lng();
       submitForm();
     });
 
   // Make the map sticky.
-  $("#gmap").sticky({topSpacing:0});
+  $('#gmap').sticky({topSpacing: 0});
 
   // Trigger query when a facet is changed.
-  $('#class-search-facets').find('select').change(function () {
-    submitForm();
-  });
+  $('#class-search-facets')
+    .find('select')
+    .change(function() {
+      submitForm();
+    });
 });
 
 function submitForm() {
@@ -49,7 +54,7 @@ function getParams(form_data) {
     value: gmap_loc
   });
 
-  $.each(form_data, function (key, field) {
+  $.each(form_data, function(key, field) {
     if (field.value !== '' && field.name !== 'location') {
       params.push(field);
     }
@@ -59,7 +64,7 @@ function getParams(form_data) {
 }
 
 function sendQuery(params) {
-  $.post('/forms/ClassSubmission/query', $.param(params), function (response) {
+  $.post('/forms/ClassSubmission/query', $.param(params), function(response) {
     var locations = getLocations(response);
     updateResults(locations);
   }).fail(displayQueryError);
@@ -90,7 +95,12 @@ function getLocations(results) {
       var lon = coordinates[1];
       var title = places[i].school_name_s;
       var html = compileHTML(index, places[i]);
-      var more_link = '<div><a id="location-details-trigger-' + index + '" class="location-details-trigger" onclick="event.preventDefault();" href="#location-details-' + index + '">More information</a></div>';
+      var more_link =
+        '<div><a id="location-details-trigger-' +
+        index +
+        '" class="location-details-trigger" onclick="event.preventDefault();" href="#location-details-' +
+        index +
+        '">More information</a></div>';
 
       var location = {
         lat: lat,
@@ -108,10 +118,10 @@ function getLocations(results) {
 }
 
 function setFacetDefaults() {
-  $.each(selectize, function (key, select) {
+  $.each(selectize, function(key, select) {
     // Class format dropdown selects "Out of school" by default
     // and all other dropdowns are cleared.
-    if (selectize[key].id === "class-format-category") {
+    if (selectize[key].id === 'class-format-category') {
       select.selectize.setValue('out_of_school');
     } else {
       select.selectize.clear();
@@ -126,7 +136,11 @@ function displayNoResults() {
 
 function displayQueryError() {
   $('#class-search-results').hide();
-  $('#class-search-error').html('<p>Sorry, please try again. First, search by location. Then, narrow your search with the filters.</p>').show();
+  $('#class-search-error')
+    .html(
+      '<p>Sorry, please try again. First, search by location. Then, narrow your search with the filters.</p>'
+    )
+    .show();
 }
 
 function loadMap(locations) {
@@ -136,7 +150,7 @@ function loadMap(locations) {
 
   // Reset the map.
   $('#gmap').html('');
-  gmap = new Maplace;
+  gmap = new Maplace();
 
   var map_options = {
     map_options: {
@@ -150,7 +164,7 @@ function loadMap(locations) {
   if (locations.length > 0) {
     map_options.force_generate_controls = true;
     map_options.locations = locations;
-    map_options.afterOpenInfowindow = function (index, location, marker) {
+    map_options.afterOpenInfowindow = function(index, location, marker) {
       setDetailsTrigger(index, location, marker);
     };
   }
@@ -171,7 +185,11 @@ function compileHTML(index, location) {
   }
 
   if (location.class_format_s) {
-    line = '<strong>Format: </strong>' + i18n(location.class_format_category_s) + ' - ' + i18n(location.class_format_s);
+    line =
+      '<strong>Format: </strong>' +
+      i18n(location.class_format_category_s) +
+      ' - ' +
+      i18n(location.class_format_s);
     if (location.school_tuition_s === 'yes') {
       line += ' (private)';
     } else if (location.school_tuition_s === 'no') {
@@ -182,7 +200,7 @@ function compileHTML(index, location) {
   }
 
   if (location.school_level_ss) {
-    $.each(location.school_level_ss, function (key, field) {
+    $.each(location.school_level_ss, function(key, field) {
       location.school_level_ss[key] = i18n('level_' + field);
     });
 
@@ -191,12 +209,14 @@ function compileHTML(index, location) {
   }
 
   if (location.class_languages_all_ss) {
-    line = '<strong>Language(s): </strong>' + location.class_languages_all_ss.join(', ');
+    line =
+      '<strong>Language(s): </strong>' +
+      location.class_languages_all_ss.join(', ');
     lines.push(line);
   }
 
-  $.each(lines, function (key, field) {
-    html+= '<div class="entry-detail">' + field + '</div>';
+  $.each(lines, function(key, field) {
+    html += '<div class="entry-detail">' + field + '</div>';
   });
 
   // Add details to the page for displaying in a modal popup.
@@ -208,38 +228,39 @@ function compileHTML(index, location) {
 
 function setDetailsTrigger(index, location, marker) {
   var details_trigger = '.location-details-trigger';
-  $('#gmap').on('click', details_trigger, function () {
-    $(details_trigger).colorbox({inline:true, width:"50%", open:true});
+  $('#gmap').on('click', details_trigger, function() {
+    $(details_trigger).colorbox({inline: true, width: '50%', open: true});
   });
 }
 
 function i18n(token) {
   var labels = {
-    'in_school': 'In school',
-    'in_school_daily_programming_course': 'Daily programming course',
-    'in_school_ap_computer_science': 'AP computer science',
-    'in_school_full_university_cs_curriculum': 'Full university CS curriculum',
-    'in_school_robotics_club': 'Robotics club',
-    'in_school_programming_integrated_in_other_classes': 'Programming integrated in other classes',
-    'in_school_summer_school_cs_program': 'Summer school CS program',
-    'in_school_other': 'Other in school',
-    'out_of_school': 'Out of school',
-    'out_of_school_summer_camp': 'Summer camp',
-    'out_of_school_afterschool_program': 'Afterschool program',
+    in_school: 'In school',
+    in_school_daily_programming_course: 'Daily programming course',
+    in_school_ap_computer_science: 'AP computer science',
+    in_school_full_university_cs_curriculum: 'Full university CS curriculum',
+    in_school_robotics_club: 'Robotics club',
+    in_school_programming_integrated_in_other_classes:
+      'Programming integrated in other classes',
+    in_school_summer_school_cs_program: 'Summer school CS program',
+    in_school_other: 'Other in school',
+    out_of_school: 'Out of school',
+    out_of_school_summer_camp: 'Summer camp',
+    out_of_school_afterschool_program: 'Afterschool program',
     'out_of_school_all-day_workshop': 'All-day workshop (up to 1 week)',
     'out_of_school_multi-week_workshop': 'Multi-week workshop',
-    'out_of_school_other': 'Other out of school',
-    'online': 'Online',
-    'online_programming_class': 'Online programming class',
-    'online_teacher_resource': 'Online teacher resource',
-    'online_other': 'Other online',
-    'level_preschool': 'Preschool',
-    'level_elementary': 'Elementary',
-    'level_middle_school': 'Middle school',
-    'level_high_school': 'High school',
-    'level_college': 'College',
-    'level_vocational': 'Vocational',
-    'languages_other': 'Other language(s)'
+    out_of_school_other: 'Other out of school',
+    online: 'Online',
+    online_programming_class: 'Online programming class',
+    online_teacher_resource: 'Online teacher resource',
+    online_other: 'Other online',
+    level_preschool: 'Preschool',
+    level_elementary: 'Elementary',
+    level_middle_school: 'Middle school',
+    level_high_school: 'High school',
+    level_college: 'College',
+    level_vocational: 'Vocational',
+    languages_other: 'Other language(s)'
   };
 
   return labels[token];
@@ -247,29 +268,39 @@ function i18n(token) {
 
 function compileDetails(index, location, lines) {
   // Compile HTML.
-  var html = '<h2 style="margin-top: 0; margin-bottom: .5em; padding-top: 0;">' + location.school_name_s + '</h2>';
+  var html =
+    '<h2 style="margin-top: 0; margin-bottom: .5em; padding-top: 0;">' +
+    location.school_name_s +
+    '</h2>';
 
   if (location.school_website_s) {
     if (!location.school_website_s.match(/^https?:\/\//i)) {
       location.school_website_s = 'http://' + location.school_website_s;
     }
 
-    let line = '<strong>Website: </strong><a href="' + location.school_website_s + '" target="_blank">' + location.school_website_s + '</a>';
+    let line =
+      '<strong>Website: </strong><a href="' +
+      location.school_website_s +
+      '" target="_blank">' +
+      location.school_website_s +
+      '</a>';
     lines.push(line);
   }
 
-  $.each(lines, function (key, field) {
+  $.each(lines, function(key, field) {
     html += '<div>' + field + '</div>';
   });
 
   if (location.class_description_s) {
-    html += '<p style="margin-top: 1em;">' + location.class_description_s + '</p>';
+    html +=
+      '<p style="margin-top: 1em;">' + location.class_description_s + '</p>';
   }
 
   return html;
 }
 
 function addDetails(index, details) {
-  var details_html = '<div id="location-details-' + index + '">' + details + '</div>';
+  var details_html =
+    '<div id="location-details-' + index + '">' + details + '</div>';
   $('#location-details').append(details_html);
 }
