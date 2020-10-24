@@ -1,6 +1,6 @@
   .policy-summary {
     padding-top: 12px;
-    max-width: 972px;
+    max-width: 724px;
   }
   body {
     font-family: 'Gotham 4r', sans-serif;
@@ -28,4 +28,8 @@
   ul.link-bar li {
     display: inline;
     margin-right:12px;
+  }
+  img {
+  	float:left;
+  	margin-right: 16px;
   }
