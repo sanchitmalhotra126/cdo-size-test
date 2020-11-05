@@ -8,7 +8,9 @@ style_min: true
 
 # MINECRAFT Hour of Code
 
-<center><iframe style="max-width:100%" width="600" height="337" src="https://www.youtube.com/embed/KJZxmI-45Dg" frameborder="0" allowfullscreen></iframe></center>
+<div style="width:600px; max-width:100%; margin-left:auto; margin-right:auto;">
+    {{ hoc_mc_video }}
+</div>
 
 [col-50]
 
