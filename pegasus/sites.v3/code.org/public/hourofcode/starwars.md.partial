@@ -3,11 +3,14 @@ title: Teacher Resources - Star Wars
 nav: hoc_teacher_resources_nav
 theme: responsive
 style_min: true
+video_player: true
 ---
 
 # Star Wars: Building a Galaxy with Code
 
-<center><iframe style="max-width:100%" width="483" height="234" src="https://www.youtube.com/embed/vNjiHkQQl6A" frameborder="0" allowfullscreen></iframe></center>
+<div style="width:600px; max-width:100%; margin-left:auto; margin-right:auto;">
+    {{ hoc_starwars_video }}
+</div>
 
 [col-50]
 
