@@ -2,11 +2,14 @@
 title: Teacher Resources - Code with Anna and Elsa
 nav: hoc_teacher_resources_nav
 theme: responsive
+video_player: true
 ---
 
 # Code with Anna and Elsa: An Hour of Code Tutorial
 
-<center><iframe style="max-width:100%" width="600" height="337" src="https://www.youtube.com/embed/H1-paxNG4kw" frameborder="0" allowfullscreen></iframe></center>
+<div style="width:600px; max-width:100%; margin-left:auto; margin-right:auto;">
+    {{ hoc_frozen_video }}
+</div>
 
 [col-50]
 
