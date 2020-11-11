@@ -1,12 +1,13 @@
 ---
-title: Teacher Resources - Make a Flappy Game
+title: Teacher Resources - Infinity Play Lab
 nav: hoc_teacher_resources_nav
 theme: responsive
+video_player: true
 ---
 
-# Make a Flappy Game: An Hour of Code Tutorial
+# Infinity Play Lab: An Hour of Code Tutorial
 
-<center><iframe style="max-width:100%" width="600" height="337" src="https://www.youtube.com/embed/VQ4lo6Huylc" frameborder="0" allowfullscreen></iframe></center>
+{{ hoc_infinity_video }}
 
 [col-50]
 
@@ -14,8 +15,7 @@ theme: responsive
 
 ### Lesson Plans:
 
-- [Make a Flappy Game (English)](https://curriculum.code.org/hoc/plugged/3)
-- [Make a Flappy Game (Spanish - LATAM)](https://curriculum.code.org/es-mx/hoc/plugged/3)
+- [Play Lab](/files/hoc-playlab-lp.pdf)
 
 ### Extension Activities:
 
@@ -34,12 +34,12 @@ theme: responsive
 
 ## Overview
 
-Use drag-and-drop programming to make your own Flappy Bird game, and customize it to look different (Flappy Shark, Flappy Santa, whatever). Add the game to your phone in one click.
+Use Play Lab to create a story or game starring Disney Infinity characters.
 
 **Recommended Age Range:** 4-104
 
 **Technology Requirements:** Modern browsers, smartphones + tablets
 
-<a href="http://studio.code.org/s/flappy/reset"><button>Try the tutorial</button></a>
+<a href="http://studio.code.org/s/infinity/reset"><button>Try the tutorial</button></a>
 
 [/col-50]
