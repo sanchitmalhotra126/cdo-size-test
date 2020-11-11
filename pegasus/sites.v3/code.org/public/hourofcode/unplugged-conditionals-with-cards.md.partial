@@ -1,12 +1,13 @@
 ---
-title: Teacher Resources - Infinity Play Lab
+title: Teacher Resources - Conditionals with Cards
 nav: hoc_teacher_resources_nav
 theme: responsive
+video_player: true
 ---
 
-# Infinity Play Lab: An Hour of Code Tutorial
+# Conditionals With Cards: An Hour of Code Tutorial
 
-<center><iframe style="max-width:100%" width="560" height="315" src="https://www.youtube.com/embed/vQGOfhsb76o" frameborder="0" allowfullscreen></iframe></center>
+{{ hoc_unplugged_video }}
 
 [col-50]
 
@@ -14,7 +15,8 @@ theme: responsive
 
 ### Lesson Plans:
 
-- [Play Lab](/files/hoc-playlab-lp.pdf)
+- [Conditionals with Cards](/files/ConditionalsHoC.pdf)
+- Video: [How to Facilitate Conditionals with Cards in Your Classroom](https://youtu.be/IcEL5ibSvTs)
 
 ### Extension Activities:
 
@@ -33,12 +35,12 @@ theme: responsive
 
 ## Overview
 
-Use Play Lab to create a story or game starring Disney Infinity characters.
+Learn about algorithms and conditional statements in this "unplugged" activity using a deck of cards. Students do this activity in teams, and need one deck of cards per team.
 
-**Recommended Age Range:** 4-104
+**Recommended Age Range:** 8-12
 
-**Technology Requirements:** Modern browsers, smartphones + tablets
+**Technology Requirements:** None! This is an "unplugged" activity that can be taught with nothing more than a deck of cards.
 
-<a href="http://studio.code.org/s/infinity/reset"><button>Try the tutorial</button></a>
+<a href="/files/ConditionalsHoC.pdf"><button>Download the activity</button></a>
 
 [/col-50]
