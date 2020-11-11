@@ -1,21 +1,17 @@
 ---
-title: Teacher Resources - Play Lab
+title: Teacher Resources - Artist
 nav: hoc_teacher_resources_nav
 theme: responsive
+video_player: true
 ---
 
-# Play Lab: An Hour of Code Tutorial
+# Artist: An Hour of Code Tutorial
 
-<center><iframe style="max-width:100%" width="560" height="315" src="https://www.youtube.com/embed/c-Qz1mc3A-I" frameborder="0" allowfullscreen></iframe></center>
+{{ hoc_artist_video }}
 
 [col-50]
 
 ## Teacher Resources
-
-### Lesson Plans:
-
-- [Play Lab (English)](https://curriculum.code.org/hoc/plugged/4)
-- [Play Lab (Spanish - LATAM)](https://curriculum.code.org/es-mx/hoc/plugged/4)
 
 ### Extension Activities:
 
@@ -34,12 +30,12 @@ theme: responsive
 
 ## Overview
 
-Create a story or make a game with Play Lab! Make animals, pirates, zombies, ninjas, and many more characters move, make sounds, score points, and even throw fireballs!
+Draw cool pictures and designs with the Artist!
 
 **Recommended Age Range:** 4-104
 
-**Technology Requirements:** Modern browsers, smartphones + tablets
+**Technology Requirements:** Modern browsers + tablets
 
-<a href="http://studio.code.org/s/playlab/reset"><button>Try the tutorial</button></a>
+<a href="http://studio.code.org/s/artist/reset"><button>Try the tutorial</button></a>
 
 [/col-50]
