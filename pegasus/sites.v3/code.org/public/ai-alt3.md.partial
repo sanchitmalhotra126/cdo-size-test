@@ -5,6 +5,7 @@ theme: responsive
 style_min: true
 ---
 <link href="/css/tools.css" rel="stylesheet">
+<link href="/css/ai-videos.css" rel="stylesheet">
 
 <a id="top"></a>
 <h1 style="margin-top:30px; margin-bottom:20px">Artificial Intelligence (AI) at Code.org</h1>
@@ -49,7 +50,7 @@ style_min: true
 <div class="col-33">
   <div class="tutorial-tile" style="padding-right:20px">
       <a href="/oceans">
-        <img class="tutorial-tile-img" src="/images/fill-485x235/oceans/oceans-overview.png" style="max-width:100%; border: 0.5px solid #808080; border-radius: 15px 15px 0 0">
+        <img class="tutorial-tile-img" src="/images/fill-485x235/ai/ai-ethics-lp.png" style="max-width:100%; border: 0.5px solid #808080; border-radius: 15px 15px 0 0">
       </a>
     <div class="tutorial-info" style="background-color: #ffffff; border: 1px solid #696969; border-top: none; border-radius: 0 0 15px 15px; padding: 15px 25px 25px 25px">
       <span>
@@ -93,7 +94,7 @@ We thank Microsoft for supporting our vision and mission to ensure every child h
 <div class="col-100" style="width:100%; background-color:#ebe8f1; color:#696969; padding: 10px 40px 0px 40px; border-radius:15px;">
   <h2>Go deeper with our Ethical AI panel discussion on Tuesday, December 8!</h2>
   <p>Listen to some of our favorite AI experts discuss current and future applications of artificial intelligence, as well as issues like algorithmic bias and who has access to AI, the social and economic impact of artificial intelligence, and the ethics of delegating decision-making to AI. Appropriate for students in grade 8 and up.</p>
-  <p>Watch on <a href>Microsoft Teams</a> or stream on <a href>YouTube</a>.</p>
+  <p>Join us <strong>10:30 - 11:15 am PST on December 8</strong>! Tune in on <a href>Microsoft Teams</a> or stream on <a href>YouTube</a>.</p>
   <h3 style="margin-bottom:25px">Featuring:</h3>
   <div class="col-20" style="padding-right:20px; margin-bottom:20px; text-align:center">
     <img src="/images/avatars/pat-panel.png" style="width:90%; border-radius:50%; border: 7px solid #a69bc1">
@@ -120,9 +121,9 @@ We thank Microsoft for supporting our vision and mission to ensure every child h
     <p style="text-align:center">
     <i>Panelist:</i>
     <br>
-    Pat Yongpradit
+    Natasha Crampton
     <br>
-    Chief Academic Officer, Code.org
+    Chief Responsible AI Officer, Microsoft
     </p>
   </div>
   <div class="col-20" style="padding-right:20px; margin-bottom:20px; text-align:center">
@@ -130,9 +131,9 @@ We thank Microsoft for supporting our vision and mission to ensure every child h
     <p style="text-align:center">
     <i>Panelist:</i>
     <br>
-    Pat Yongpradit
+    Inioluwa Deborah Raji
     <br>
-    Chief Academic Officer, Code.org
+    AI researcher & Mozilla Fellow
     </p>
   </div>
   <div class="col-20" style="padding-right:20px; margin-bottom:20px; text-align:center">
@@ -140,9 +141,9 @@ We thank Microsoft for supporting our vision and mission to ensure every child h
     <p style="text-align:center">
     <i>Panelist:</i>
     <br>
-    Pat Yongpradit
+    Mehran Sahami
     <br>
-    Chief Academic Officer, Code.org
+    Associate Chair for Education in the Computer Science department, Stanford University
     </p>
   </div>
   <div style="clear: both; margin-bottom: 20px"></div>
@@ -157,13 +158,13 @@ We thank Microsoft for supporting our vision and mission to ensure every child h
 <h2>How AI Works</h2>
 <p>With an introduction by Microsoft CEO Satya Nadella, this series of five short videos will introduce you to how artificial intelligence works and why it matters. Learn about neural networks, or how AI learns, and delve into issues like algorithmic bias and the ethics of AI decision-making.</p>
 
-<div class="col-50" style="float: left; padding: 10px; padding-left: 0; margin-bottom: 40px">
+<div class="col-50" style="float: left; padding: 10px; margin-bottom: 40px">
 
 {{ athome_vid_howcomputers }}
 
 </div>
 
-<div class="col-50" style="float: left; padding: 10px; padding-right: 0; margin-bottom: 40px">
+<div class="col-50" style="float: left; padding: 10px; margin-bottom: 40px">
 
 {{ athome_vid_howinternet }}
 
@@ -195,15 +196,17 @@ We thank Microsoft for supporting our vision and mission to ensure every child h
 
 <br>
 
+<div class="ai-video-collection">
+
 <h2>More videos about AI and Machine Learning</h2>
 
-<div class="col-50" style="float: left; padding: 20px; padding-left: 0; margin-bottom: 40px">
+<div class="col-50" style="float: left; padding: 20px; margin-bottom: 40px">
 
 {{ ai_vid_mlintro }}
 
 </div>
 
-<div class="col-50" style="float: left; padding: 20px; padding-right: 0; margin-bottom: 40px">
+<div class="col-50" style="float: left; padding: 20px; margin-bottom: 40px">
 
 {{ ai_vid_trainingdata }}
 
@@ -211,23 +214,26 @@ We thank Microsoft for supporting our vision and mission to ensure every child h
 
 <div style="clear: both"></div>
 
-<div class="col-50" style="float: left; padding: 20px; padding-left: 0; margin-bottom: 40px">
+<div class="col-50" style="float: left; padding: 20px; padding-top: 0px; margin-bottom: 40px">
 
 {{ ai_vid_socialimpact }}
 
 </div>
 
-<div class="col-50" style="float: left; background-color: #59cad3; padding: 20px; padding-right: 0; margin-bottom: 40px; border-radius: 15px">
-
-<h3 style="color: #ffffff; margin-top: 10px; margin-bottom: 7px">Videos from other organizations:</h3>
-<ul style="margin: 15px">
-<li><a href="https://youtu.be/DybczED-GKE" target="_blank" style="color: #ffffff">Seeing AI: Making the visual world more accessible</a> (3:27)</li>
-<li><a href="https://youtu.be/UG_X_7g63rY" target="_blank" style="color: #ffffff">Fighting bias in algorithms</a> (8:44)</li>
-<li><a href="https://youtu.be/59bMh59JQDo" target="_blank" style="color: #ffffff">Machine Learning and Human Bias</a> (2:33)</li>
-<li><a href="https://youtu.be/GboOXAjGevA" target="_blank" style="color: #ffffff">The Ethics of AI</a> (8:03)</li>
-<li><a href="https://youtu.be/_rdINNHLYaQ" target="_blank" style="color: #ffffff">Machine Learning: Solving Problems Big, Small, and Prickly</a> (5:19)</li>
-<li><a href="https://youtu.be/bHvf7Tagt18" target="_blank" style="color: #ffffff">How does your phone know this is a dog?</a> (5:57)</li>
-<li><a href="https://youtu.be/mJeNghZXtMo" target="_blank" style="color: #ffffff">What is AI?</a> (6:14)</li>
+<div class="col-50" style="float: left; padding-right: 0; margin-bottom: 40px">
+  <div class="tutorial-info" style="background-color: #59cad3; border: none; border-radius: 15px; margin-left: 20px; padding: 20px; padding-right: 5px">
+    <h3 style="color: #ffffff; margin-top: 10px; margin-bottom: 7px">Videos from other organizations:</h3>
+    <ul style="margin: 5px">
+      <li><a href="https://youtu.be/DybczED-GKE" target="_blank" style="color: #ffffff">Seeing AI: Making the visual world more accessible</a> (3:27)</li>
+      <li><a href="https://youtu.be/UG_X_7g63rY" target="_blank" style="color: #ffffff">Fighting bias in algorithms</a> (8:44)</li>
+      <li><a href="https://youtu.be/59bMh59JQDo" target="_blank" style="color: #ffffff">Machine Learning and Human Bias</a> (2:33)</li>
+      <li><a href="https://youtu.be/GboOXAjGevA" target="_blank" style="color: #ffffff">The Ethics of AI</a> (8:03)</li>
+      <li><a href="https://youtu.be/_rdINNHLYaQ" target="_blank" style="color: #ffffff">Machine Learning: Solving Problems Big, Small, and Prickly</a> (5:19)</li>
+      <li><a href="https://youtu.be/bHvf7Tagt18" target="_blank" style="color: #ffffff">How does your phone know this is a dog?</a> (5:57)</li>
+      <li><a href="https://youtu.be/mJeNghZXtMo" target="_blank" style="color: #ffffff">What is AI?</a> (6:14)</li>
+    </ul>
+  </div>
+</div>
 
 </div>
 
