@@ -2,6 +2,16 @@
 title: Careers with Computer Science
 video_player: true
 theme: responsive
+social:
+  "og:title": "Explore Careers with Computer Science"
+  "og:description": "Learn about CS careers and opportunities"
+  "og:image": ""
+  "og:image:width": 1200
+  "og:image:height": 630
+  "og:video": ""
+  "og:video:width": ""
+  "og:video:height": ""
+  "og:video:type": ""
 ---
 <a id="top"></a>
 <h1>Careers with Computer Science</h1>
@@ -64,7 +74,7 @@ theme: responsive
   <p style="color:#ffffff">Teachers, check out our viewing guide for using these videos in class. Guide also includes reflection worksheet for students in grade 6 and up.</p>
   <a class="linktag" id="viewing-guide" href><img src="/images/csjourneys/viewing-guide.png" style="width:90%" alt="Careers with CS video viewing guide"></a>
   <br>
-  <p style="color:#ffffff">View our <a class="linktag" id="csjourneys" href="/csjourneys" target="_blank" style="color:#ffffff">CS Journeys page</a> for more resources connecting classroom learning to real-world CS pathways.</p>
+  <p style="color:#ffffff; margin-top:10px">View our <a class="linktag" id="csjourneys" href="/csjourneys" target="_blank" style="color:#ffffff">CS Journeys page</a> for more resources connecting classroom learning to real-world CS pathways.</p>
   <br>
   <br>
 </div>
