@@ -1,5 +1,5 @@
 ---
-title: Careers with Computer Science
+title: CS Journeys: Careers with Computer Science
 video_player: true
 theme: responsive
 social:
@@ -14,7 +14,9 @@ social:
 ---
 <link href="/css/tools.css" rel="stylesheet">
 <a id="top"></a>
-<h1><img src="/images/csjourneys/csjourneys560.png" alt="CS Journeys" style="width:170px; max-width:100%;margin-bottom: 24px"/><br/>Careers with Computer Science</h1>
+<img src="/images/csjourneys/csjourneys.png" alt="CS Journeys" style="width:170px; max-width:100%; margin-bottom: 12px">
+<br>
+<h1>Careers with Computer Science</h1>
 <p>Careers in computer science and technology can be fun and rewarding. But what does a person working in these fields really do? With a vast variety of jobs and companies, there's not just one answer to this question. Watch the videos below to meet some of the people who are tackling big problems in creative ways. Then use Roadtrip Nation’s Roadmap or the O*NET Interest Profiler to learn more about fields and careers that interest you, and/or connect directly with college students and CS professionals at College Confidential or Career Village.</p>
 
 <br>
@@ -247,8 +249,4 @@ social:
 
 <a href="#top">[Back to top]</a>
 <br>
-
-<hr>
-
-<p>"Video Camera" icon made by Kiranshastry, "Check" icon made by Becris, "Chat" icon made by Freepik. All icons sourced from www.flaticon.com.
 

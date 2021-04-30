@@ -28,7 +28,7 @@ social:
   </a>
   <br>
   <a class="linktag" id="excite-nav" href="#excite" style="text-decoration:none"><h3 style="color:#00adbc; margin-top:10px"><strong>Excite</strong></h3></a>
-  <p style="margin-left:10px; margin-right:10px">and inspire students to learn CS and explore pathways with videos, field trips, events, projects, and other activities that showcase the possibilities with CS</p>
+  <p style="margin-left:10px; margin-right:10px">Excite and inspire students to learn CS and explore pathways with videos, field trips, events, projects, and other activities that showcase the possibilities with CS</p>
 </div>
 
 <div class="col-33" style="padding-bottom:15px; text-align:center">
@@ -36,7 +36,7 @@ social:
   </a>
   <br>
   <a class="linktag" id="encourage-nav" href="#encourage" style="text-decoration:none"><h3 style="color:#00adbc; margin-top:10px"><strong>Encourage</strong></h3></a>
-  <p style="margin-left:10px; margin-right:10px">students to keep learning — connect them to role models and mentors, and get parents invested in their children’s CS journeys</p>
+  <p style="margin-left:10px; margin-right:10px">Encourage students to keep learning — connect them to role models and mentors, and get parents invested in their children’s CS journeys</p>
 </div>
 
 <div class="col-33" style="padding-bottom:15px; text-align:center">
@@ -44,7 +44,7 @@ social:
   </a>
   <br>
   <a class="linktag" id="empower-nav" href="#empower" style="text-decoration:none"><h3 style="color:#00adbc; margin-top:10px"><strong>Empower</strong></h3></a>
-  <p style="margin-left:10px; margin-right:10px">students to take control of their CS journeys with resources enabling them to explore, look forward and plan</p>
+  <p style="margin-left:10px; margin-right:10px">Empower students to take control of their CS journeys with resources enabling them to explore, look forward and plan</p>
 </div>
 
 <div style="clear: both; margin-bottom:35px"></div>
@@ -119,13 +119,13 @@ social:
 
 <div class="col-33" style="padding-bottom:15px">
   <div class="tutorial-tile" style="padding-right:20px">
-      <a class="linktag" id="email-parents" href="/careers-in-tech" target="_blank">
+      <a class="linktag" id="letters-home" href="/csjourneys/engage-parents" target="_blank">
         <img class="tutorial-tile-img" src="/images/csjourneys/engage-parents.png" style="max-width:100%; border: 0.5px solid #808080; border-radius: 15px 15px 0 0" alt="email icon">
       </a>
     <div class="tutorial-info" style="background-color: #ffffff; border: 1px solid #696969; border-top: none; border-radius: 0 0 15px 15px; padding: 15px 25px 25px 25px">
         <h3 class="tutorial-info-h" style="color: dimgray; text-align: left; margin-top:10px; margin-bottom:10px"><strong>Engage parents/guardians with email updates & other resources</strong></h3>
         <div class="smalltext" style="color: dimgray; text-align: left; margin-bottom: 10px">Welcome parents to CS, keep them informed of student progress, and make them aware of career opportunities.</div>
-        <a class="linktag" id="email-parents" href><button>View resources</button></a>
+        <a class="linktag" id="letters-home" href="/csjourneys/engage-parents" target="_blank"><button>View resources</button></a>
   </div>
 </div>
 </div>
