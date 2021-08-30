@@ -7,7 +7,7 @@ social:
   "og:description": "This series of four discussions helps demystify next steps students can take on their CS Journeys"
   "twitter:title": "Next Steps Discussions for High School Classrooms"
   "twitter:description": "This series of four discussions helps demystify next steps students can take on their CS Journeys"
-  "twitter:image": "/images/csjourneys/og-internships.jpg"
+  "twitter:image": "/images/csjourneys/og-nextsteps.png"
   "og:image": "/images/csjourneys/og-nextsteps.png"
   "og:image:width": 1200
   "og:image:height": 630
@@ -107,7 +107,7 @@ social:
   <img src="/images/csjourneys/footstep.png" style="width: 10%; float: right; margin-top:-50px">
   <h3 style="margin-top:0; color:#00adbc"><strong>Wednesday, October 13th at 11 am EDT / 8 am PDT</strong></h3>
   <p>This event is designed to showcase really cool research and projects that computer science contributes to across multiple disciplines. Students will have the opportunity to hear about opportunities they’ll have at the next level, and see how computer science plays a role in a variety of academic pathways they may want to pursue. To view more details, including key topics, student takeaways, and speaker bios, click the Register button below.</p>
-  <button style="margin-bottom:20px">Register</button>
+  <a href="https://www.eventbrite.com/e/college-project-showcase-registration-167738194455"><button style="margin-bottom:20px">Register</button></a>
   <p>Featuring:</p>
   <div class="col-25" style="text-align:center; margin-bottom:10px">
     <img src="/images/csjourneys/erin-howard.jpg" style="border-radius:50%; width:55%" alt="Erin Howard">
@@ -174,7 +174,7 @@ social:
   <img src="/images/csjourneys/footstep.png" style="width: 10%; float: right; margin-top:-50px">
   <h3 style="margin-top:0; color:#00adbc"><strong>Wednesday, October 27th at 11 am EDT / 8 am PDT</strong></h3>
   <p>Students will learn about key alternatives to the four-year college degree and steps they can take to explore these alternatives, including community college, apprenticeships, and Google Career Certificates. To view more details, including key topics, student takeaways, and speaker bios, click the Register button below.</p>
-  <button style="margin-bottom:20px">Register</button>
+  <a href="https://www.eventbrite.com/e/alternatives-to-the-4-year-cs-degree-registration-167770737793"><button style="margin-bottom:20px">Register</button></a>
   <p>Featuring:</p>
   <div class="col-33" style="text-align:center; margin-bottom:10px">
     <img src="/images/csjourneys/robert-campbell.jpg" style="border-radius:50%; width:55%" alt="Robert Campbell">
@@ -183,14 +183,6 @@ social:
     Data Scientist
     <br>
     <a href="https://www.ibm.com/us-en/?ar=1" target="_blank">IBM</a></p>
-  </div>
-  <div class="col-33" style="text-align:center; margin-bottom:10px">
-    <img src="/images/avatars/eric_fershtman.jpg" style="border-radius:50%; width:55%">
-    <p style="margin-top:10px"><strong>TBD</strong>
-    <br>
-    TBD
-    <br>
-    <a href="https://www.google.com/" target="_blank">Google</a></p>
   </div>
   <div class="col-33" style="text-align:center">
     <img src="/images/csjourneys/vikram-sreedhar.png" style="border-radius:50%; width:55%" alt="Vikram Sreedhar">
@@ -234,7 +226,7 @@ social:
   <img src="/images/csjourneys/footstep.png" style="width: 10%; float: right; margin-top:-50px">
   <h3 style="margin-top:0; color:#00adbc"><strong>Wednesday, November 10th at 11 am EDT / 8 am PDT</strong></h3>
   <p>Students learn about the importance of support networks to their career journey, and about steps to take to start building their own network of intentional connections, including finding a mentor, participating in extracurricular activities, and plugging in with affinity groups and/or professional networks. To view more details, including key topics, student takeaways, and speaker bios, click the Register button below.</p>
-  <button style="margin-bottom:20px">Register</button>
+  <a href="https://www.eventbrite.com/e/making-connections-and-building-support-networks-registration-167771632469"><button style="margin-bottom:20px">Register</button></a>
   <p>Featuring:</p>
   <div class="col-25" style="text-align:center; margin-bottom:10px">
     <img src="/images/csjourneys/nik-bisht.png" style="border-radius:50%; width:55%" alt="Nik Bisht">
