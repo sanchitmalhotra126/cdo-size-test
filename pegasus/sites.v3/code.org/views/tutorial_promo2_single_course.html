@@ -6,32 +6,35 @@
   <h1 class="tutorial-heading">
     %heading%
   </h1>
-  <div class="col-25 specific-tutorial left-tutorial col-rtl-right">
-    <div class="tutorial-box" style="background-color: %box_background_color%">
-      <h2 class="specific-tutorial-heading" style="color: %text_color%">
-        %left_heading%
-      </h2>
-      <div class="tutorial-details">
-        <p class="tutorial-description" style="color: %text_color%">
-          %left_description%
-        </p>
-        <p class="tutorial-specs">
-          %left_specs%
-        </p>
-      </div>
-      <a href="%left_button_url%" target="_self">
-        <button class="tutorial-button">
-          %left_button_text%
-        </button>
-      </a>
-    </div>
-  </div>
-  <div class="col-25 specific-tutorial right-tutorial col-rtl-right">
+  <div class="col-50 specific-tutorial right-tutorial col-rtl-right">
     <div class="tutorial-box" style="background-color: %box_background_color%">
       <h2 class="specific-tutorial-heading" style="color: %text_color%">
         %right_heading%
       </h2>
       <div class="tutorial-details">
+        <div style="padding-bottom: 20px; overflow: hidden; color: %text_color%">
+          <div class="float-ltr-rtl">
+            <i class="fa fa-fw fa-flag"/>
+            %grades%
+          </div>
+          <div class="float-ltr-rtl">
+            &nbsp;
+            &nbsp;
+          </div>
+          <div class="float-ltr-rtl">
+            <i class="fa fa-fw fa-book"/>
+            %subject%
+          </div>
+          <div class="float-ltr-rtl">
+            &nbsp;
+            &nbsp;
+          </div>
+          <div class="float-ltr-rtl">
+            <i class="fa fa-fw fa-clock-o"/>
+            %duration%
+          </div>
+        </div>
+
         <p class="tutorial-description" style="color: %text_color%">
           %right_description%
         </p>
