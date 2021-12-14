@@ -18,20 +18,20 @@ title: Review Hour of Code special events
     this rubric
   for event approval before reviewing.
 
-%a{href: "/teacher-dashboard/review-hociyskvuwa/all"} View all events
+%a{href: "/review-hociyskvuwa/all"} View all events
 
 %ul
   %li{class: "hoc-event-country"}
-    %a{href: "/teacher-dashboard/review-hociyskvuwa/us"}
+    %a{href: "/review-hociyskvuwa/us"}
       %span{style: "font-weight: bold;"} United States
     %ul{style: "margin-top: 0; margin-bottom: 0;"}
       -states.each do |state|
         %li{class: "hoc-event-state"}
-          %a{href: "/teacher-dashboard/review-hociyskvuwa/us/#{state[:state_code].downcase}"}
+          %a{href: "/review-hociyskvuwa/us/#{state[:state_code].downcase}"}
             = state[:state_code]
 
 %ul
   -countries.each do |country|
     %li{class: "hoc-event-country"}
-      %a{href: "/teacher-dashboard/review-hociyskvuwa/#{country[:country_code].downcase}"}
+      %a{href: "/review-hociyskvuwa/#{country[:country_code].downcase}"}
         = country_name_from_code country[:country_code]
