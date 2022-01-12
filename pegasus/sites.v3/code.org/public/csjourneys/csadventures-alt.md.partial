@@ -12,11 +12,11 @@ social:
   "og:image:width": 1200
   "og:image:height": 630
 ---
-<link href="/css/csjourneys.css" rel="stylesheet">
+<link href="/css/tools.css" rel="stylesheet">
 
 <a id="top"></a>
 
-<h1 style="margin-top:25px"><img src="/images/csjourneys/csjourneys.png" alt="CS Journeys" style="width:170px; max-width:100%;margin-bottom: 12px"/><br/>Virtual field trips and career chats</h1>
+<h1 style="margin-top:25px"><img src="/images/csjourneys/csjourneys.png" alt="CS Journeys" style="width:170px; max-width:100%; margin-bottom: 12px"><br>Virtual field trips and career chats</h1>
 
 <p>Use these engagement opportunities to excite and inspire your students to keep learning CS! Click on each opportunity to view specific details around timing, grade-appropriateness, and more.</p>
 <ul>
@@ -73,7 +73,10 @@ social:
 <div style="clear: both; margin-bottom: 20px"></div>
 
 <a id="chats">
-<h2>Career chats</h2>
+<h2>My Journey Chats</h2>
+<h3>Weekly Classroom Conversations with Professionals</h3>
+<p>Give your students the opportunity to hear from a diverse group of people using computer science to explore the universe, make cool robots and popular TV shows, and more! Conversations last 20-30 minutes, and recordings will be made available a day or two after each event.</p>
+<br>
 
 <div class="col-33" style="padding-bottom:15px">
   <div class="tutorial-tile" style="padding-right:20px">
@@ -82,9 +85,8 @@ social:
       </a>
     <div class="tutorial-info" style="background-color: #ffffff; border: 1px solid #696969; border-top: none; border-radius: 0 0 15px 15px; padding: 15px 25px 25px 25px">
         <div class="smalltext" style="color: #00adbc; text-align: left"><strong>Wed, February 2 at 10 am EDT</strong></div>
-        <h3 class="tutorial-info-h" style="color: dimgray; text-align: left; margin-top:10px; margin-bottom:10px"><strong>Explore the technology of Amazon's Fulfillment Centers</strong></h3>
-        <div class="smalltext" style="color: dimgray; text-align: left; margin-bottom: 10px">Discover how computer science, state-of-the-art engineering, and incredible people deliver customer orders at Amazon.</div>
-        <br>
+        <h3 class="tutorial-info-h" style="color: dimgray; text-align: left; margin-top:10px; margin-bottom:10px"><strong>Music and more at Spotify</strong></h3>
+        <div class="smalltext" style="color: dimgray; text-align: left; margin-bottom: 10px">Hear about the career path that led two software engineers to Spotify and how each plays a different role in helping to bring music to our lives. <i>For grades 6-12</i>.</div>
         <a class="linktag" id="amazon-trip" href="https://www.amazonfutureengineer.com/fctours?utm_campaign=codeorg&utm_medium=fctours&utm_source=us" target="_blank"><button>View details</button></a>
   </div>
 </div>
@@ -109,8 +111,39 @@ social:
         <img class="tutorial-tile-img" src="/images/csjourneys/fill-485x235/nasa-trip.jpg" style="max-width:100%; border: 0.5px solid #808080; border-radius: 15px 15px 0 0" alt="Chandra X-Ray Observatory">
       </a>
     <div class="tutorial-info" style="background-color: #ffffff; border: 1px solid #696969; border-top: none; border-radius: 0 0 15px 15px; padding: 15px 25px 25px 25px">
-        <h3 class="tutorial-info-h" style="color: dimgray; text-align: left; margin-top:10px; margin-bottom:10px"><strong>Explore the universe with NASA's Chandra X-ray Observatory</strong></h3>
-        <div class="smalltext" style="color: dimgray; text-align: left; margin-bottom: 10px">Tour NASA’s Chandra X-ray Observatory as we investigate hot regions of the Universe, from black holes, to exploding stars, colliding galaxies and more.</div>
+        <div class="smalltext" style="color: #00adbc; text-align: left"><strong>Wed, February 16 at 1 pm EDT</strong></div>
+        <h3 class="tutorial-info-h" style="color: dimgray; text-align: left; margin-top:10px; margin-bottom:10px"><strong>Building virtual reality worlds with Oculus</strong></h3>
+        <div class="smalltext" style="color: dimgray; text-align: left; margin-bottom: 10px">Learn how product, design and engineering come together in the world of Virtual Reality with Tanya Parker, a product manager at Oculus. <i>For grades K-5</i>.</div>
+        <a class="linktag" id="nasa-trip" href="https://chandra.si.edu/fieldtrip/" target="_blank"><button>View details</button></a>
+  </div>
+</div>
+</div>
+
+<div style="clear: both; margin-bottom: 20px"></div>
+
+<div class="col-33" style="padding-bottom:15px">
+  <div class="tutorial-tile" style="padding-right:20px">
+      <a class="linktag" id="nasa-trip" href="https://chandra.si.edu/fieldtrip/" target="_blank">
+        <img class="tutorial-tile-img" src="/images/csjourneys/fill-485x235/nasa-trip.jpg" style="max-width:100%; border: 0.5px solid #808080; border-radius: 15px 15px 0 0" alt="Chandra X-Ray Observatory">
+      </a>
+    <div class="tutorial-info" style="background-color: #ffffff; border: 1px solid #696969; border-top: none; border-radius: 0 0 15px 15px; padding: 15px 25px 25px 25px">
+        <div class="smalltext" style="color: #00adbc; text-align: left"><strong>Fri, February 25 at 10 am EDT</strong></div>
+        <h3 class="tutorial-info-h" style="color: dimgray; text-align: left; margin-top:10px; margin-bottom:10px"><strong>How to outsmart a hacker with Tanium</strong></h3>
+        <div class="smalltext" style="color: dimgray; text-align: left; margin-bottom: 10px">Learn how Christopher Lopez, a security analyst with Tanium, helps organizations protect their networks from cybersecurity threats <i>For grades K-5</i>.</div>
+        <a class="linktag" id="nasa-trip" href="https://chandra.si.edu/fieldtrip/" target="_blank"><button>View details</button></a>
+  </div>
+</div>
+</div>
+
+<div class="col-33" style="padding-bottom:15px">
+  <div class="tutorial-tile" style="padding-right:20px">
+      <a class="linktag" id="nasa-trip" href="https://chandra.si.edu/fieldtrip/" target="_blank">
+        <img class="tutorial-tile-img" src="/images/csjourneys/fill-485x235/nasa-trip.jpg" style="max-width:100%; border: 0.5px solid #808080; border-radius: 15px 15px 0 0" alt="Chandra X-Ray Observatory">
+      </a>
+    <div class="tutorial-info" style="background-color: #ffffff; border: 1px solid #696969; border-top: none; border-radius: 0 0 15px 15px; padding: 15px 25px 25px 25px">
+        <div class="smalltext" style="color: #00adbc; text-align: left"><strong>Fri, March 2 at 1 pm EDT</strong></div>
+        <h3 class="tutorial-info-h" style="color: dimgray; text-align: left; margin-top:10px; margin-bottom:10px"><strong>Visual storytelling with data</strong></h3>
+        <div class="smalltext" style="color: dimgray; text-align: left; margin-bottom: 10px">Learn how creative technologist Sasha Samochina uses art, music, and technology to create software that both helps scientists and inspires people of all ages. <i>For grades 6-12</i>.</div>
         <a class="linktag" id="nasa-trip" href="https://chandra.si.edu/fieldtrip/" target="_blank"><button>View details</button></a>
   </div>
 </div>
