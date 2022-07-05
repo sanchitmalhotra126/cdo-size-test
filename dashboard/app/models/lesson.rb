@@ -230,14 +230,14 @@ class Lesson < ApplicationRecord
     # using legacy lesson plans, remove this condition and consolidate with
     # localized_name_for_lesson_show.
     if script.lessons.many? || (script.is_migrated && !script.use_legacy_lesson_plans)
-      I18n.t "data.script.name.#{script.name}.lessons.#{key}.name"
+      get_localized_property(:name) || ''
     else
       I18n.t "data.script.name.#{script.name}.title"
     end
   end
 
   def localized_name_for_lesson_show
-    I18n.t "data.script.name.#{script.name}.lessons.#{key}.name"
+    get_localized_property(:name) || ''
   end
 
   def localized_lesson_plan
@@ -821,7 +821,7 @@ class Lesson < ApplicationRecord
 
     copied_lesson.absolute_position = destination_unit.lessons.count + 1
     copied_lesson.relative_position =
-      destination_unit.lessons.select {|l| copied_lesson.numbered_lesson? == l.numbered_lesson?}.length + 1
+      destination_unit.lessons.count {|l| copied_lesson.numbered_lesson? == l.numbered_lesson?} + 1
 
     copied_lesson.save!
 
